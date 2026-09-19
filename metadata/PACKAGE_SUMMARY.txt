@@ -1,0 +1,21 @@
+GITHUB-READY PACKAGE SUMMARY
+============================
+
+Project root: /mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3
+Package: /mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/GITHUB_READY
+
+Files included: 405
+Files excluded: 7
+
+Included categories:
+  figure: 94
+  key_structure: 4
+  result: 241
+  script: 52
+  step33_documentation: 14
+
+Original project files were not modified.
+Large/raw/local working files were excluded.
+
+Scientific status:
+COMPUTATIONALLY SUPPORTED WITH AN EXPERIMENTAL VALIDATION GAP

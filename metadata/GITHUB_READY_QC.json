@@ -1,0 +1,9 @@
+{
+  "package_exists": true,
+  "files_included": 405,
+  "files_excluded": 7,
+  "required_files": 11,
+  "missing_required_files": [],
+  "oversized_files": [],
+  "status": "PASS"
+}

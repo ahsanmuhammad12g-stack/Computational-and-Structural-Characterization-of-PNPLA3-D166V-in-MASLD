@@ -1,0 +1,8 @@
+Use,Recommended_Claim,Evidence,Claim_Strength
+THESIS_RESULT,D166V produced a reproducible local structural and physicochemical alteration at PNPLA3 residue 166 in the computational models.,Steps 25 and 27,Appropriate
+THESIS_RESULT,The predicted D166V effect is consistent with alteration of a functionally important PNPLA3 region.,Steps 25–27 and independent biological literature,Appropriate
+THESIS_DISCUSSION,The D166V structural mechanism is biologically consistent with the established role of PNPLA3 in hepatic lipid metabolism and MASLD.,Steps 26 and 31,Appropriate as inference
+THERAPEUTIC_RESULT,CID 71236597 was prioritized as a computational therapeutic candidate and exhibited a D166V-preferred docking score.,"Steps 22, 23, 28 and 30",Appropriate
+AVOID,D166V is experimentally proven pathogenic.,None,Unsupported
+AVOID,CID 71236597 is a confirmed D166V inhibitor.,None,Unsupported
+AVOID,CID 71236597 will treat MASLD.,None,Unsupported

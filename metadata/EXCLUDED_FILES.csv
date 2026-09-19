@@ -1,0 +1,8 @@
+source,reason,size_mb
+SCRIPTS/test_clinvar_ids.py,Development/test script.,0.001
+SCRIPTS/test_clinvar_query.py,Development/test script.,0.001
+SCRIPTS/test_efetch_one.py,Development/test script.,0.0
+SCRIPTS/test_ensembl_rs738409.py,Development/test script.,0.001
+SCRIPTS/test_gnomad_rs738409.py,Development/test script.,0.001
+RESULTS/STEP25_WT_CID71236597_MD/ligand_parameterization_test/sqm.in,AmberTools temporary file.,0.003
+RESULTS/STEP25_WT_CID71236597_MD/ligand_parameterization_test/sqm.out,AmberTools temporary file.,0.007

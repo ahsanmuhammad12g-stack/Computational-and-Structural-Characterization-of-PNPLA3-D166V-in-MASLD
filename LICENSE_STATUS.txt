@@ -1,0 +1,6 @@
+# License Status
+
+No open-source license has been automatically assigned.
+
+Before public release, the author should select an appropriate license
+if reuse of the repository is intended.

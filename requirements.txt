@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+biopython
+openmm
+openff-toolkit
+openmmforcefields
+pdbfixer
+rdkit

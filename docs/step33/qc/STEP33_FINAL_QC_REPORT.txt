@@ -1,0 +1,20 @@
+STEP 33 — FINAL PROJECT QC REPORT
+==============================================================================
+Project: Computational prioritization and mechanistic characterization of the unresolved PNPLA3 D166V variant in MASLD with structure-guided therapeutic candidate prioritization
+Variant: PNPLA3 p.Asp166Val (D166V)
+Primary therapeutic candidate: CID 71236597
+
+Step 9F source resolved: False
+Verified expected-table files: 13/13
+Evidence domains with support: 11
+Limited evidence domains: 2
+Inference/unresolved domains: 2
+Figures inventoried: 94
+
+CRITICAL PROVENANCE NOTES:
+1. Step 32 could not resolve the Step 9F source file because the assumed path did not match the actual project location.
+2. Step 32 could not automatically extract the Step 25 summary fields because the summary-table column names did not match the expected names. Verified Step 25 numerical results are retained explicitly in the Step 33 variant table.
+3. Step 29 could not reconstruct explicit WT/D166V Step 24 interaction fingerprints. Therefore the Step 29 Jaccard value of 0.000 is treated as an analysis limitation rather than biological absence of shared interactions.
+
+FINAL SCIENTIFIC STATUS:
+The completed computational workflow prioritizes PNPLA3 p.Asp166Val (D166V; rs1381635405; VariationID 3308171) as an unresolved candidate and provides convergent structural evidence that the mutation changes the local physicochemical and interaction environment of residue 166 without producing substantial global backbone displacement. Independent structural descriptors reproduce this local alteration. The predicted effect is biologically consistent with experimentally established roles of PNPLA3 in hepatic lipid metabolism and with the established relationship between PNPLA3 variation and steatotic liver disease. The analysis also identifies a residue-166-centered pocket and prioritizes CID 71236597 as a computational therapeutic candidate, including a D166V-preferred docking signal and favorable physicochemical development characteristics. However, D166V-specific biochemical, cellular and disease-model validation has not been performed, and the compound has not been experimentally demonstrated to bind, inhibit or rescue the mutant protein. The final scientific interpretation is therefore that D166V represents a computationally supported and biologically plausible function-altering hypothesis, while variant-specific functional and therapeutic validation remains the principal experimental gap.

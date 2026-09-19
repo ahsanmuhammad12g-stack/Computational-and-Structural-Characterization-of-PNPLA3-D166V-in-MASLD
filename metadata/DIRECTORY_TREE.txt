@@ -1,0 +1,550 @@
+├── docs
+│   ├── step33
+│   │   ├── manuscript_support
+│   │   │   ├── STEP33_FINAL_SCIENTIFIC_CONCLUSION.txt
+│   │   │   ├── STEP33_LIMITATIONS.csv
+│   │   │   └── STEP33_THESIS_CLAIM_GUIDANCE.csv
+│   │   ├── qc
+│   │   │   ├── STEP33_FIGURE_INVENTORY.csv
+│   │   │   ├── STEP33_FINAL_QC_REPORT.txt
+│   │   │   ├── STEP33_PROVENANCE_NOTES.json
+│   │   │   ├── STEP33_QC.json
+│   │   │   ├── STEP33_REPRODUCIBILITY_MANIFEST.csv
+│   │   │   └── STEP33_RESULTS_FILE_MANIFEST.csv
+│   │   ├── tables
+│   │   │   ├── STEP33_FINAL_THERAPEUTIC_LEAD.csv
+│   │   │   ├── STEP33_FINAL_VARIANT_EVIDENCE.csv
+│   │   │   ├── STEP33_MASTER_SCIENTIFIC_EVIDENCE.csv
+│   │   │   └── STEP33_STEP_STATUS.csv
+│   │   └── README.txt
+│   └── FINAL_SCIENTIFIC_STATUS.md
+├── figures
+│   ├── STEP10_STRUCTURAL_ANALYSIS
+│   │   └── figures
+│   │       ├── Figure_S10_1_WT_D166V_RMSD_comparison.png
+│   │       ├── Figure_S10_2_D166V_local_distance_comparison.png
+│   │       ├── Figure_S10_3_D166V_contact_comparison.png
+│   │       ├── Figure_S10_4_D166V_candidate_polar_contact_comparison.png
+│   │       ├── Figure_S10_5_local_pLDDT_around_D166.png
+│   │       ├── Figure_S10_6_PNPLA3_WT_D166_3D.png
+│   │       ├── Figure_S10_7_PNPLA3_D166V_3D.png
+│   │       └── Figure_S10_8_PNPLA3_WT_vs_D166V_3D.png
+│   ├── STEP11_D166V_CATALYTIC_CONTEXT
+│   │   └── figures
+│   │       ├── Figure_S11_1_catalytic_context_distance_comparison.png
+│   │       ├── Figure_S11_2_local_distance_comparison.png
+│   │       ├── Figure_S11_3_local_contact_status.png
+│   │       ├── Figure_S11_4_D166V_polar_contact_comparison.png
+│   │       └── Figure_S11_5_D166V_physicochemical_change.png
+│   ├── STEP12_INTEGRATED_INTERPRETATION
+│   │   └── figures
+│   │       ├── Figure_S12_1_integrated_evidence_profile.png
+│   │       ├── Figure_S12_2_structural_impact_summary.png
+│   │       └── Figure_S12_3_D166V_mechanistic_evidence.png
+│   ├── STEP13_COMPARATIVE_STRUCTURAL_ANALYSIS
+│   │   └── figures
+│   │       ├── PyMOL_3D
+│   │       │   ├── Figure_S13_Arg247Thr_3D.png
+│   │       │   ├── Figure_S13_Asp166Val_3D.png
+│   │       │   ├── Figure_S13_Cys28Arg_3D.png
+│   │       │   ├── Figure_S13_Gly49Trp_3D.png
+│   │       │   ├── Figure_S13_Leu142Phe_3D.png
+│   │       │   ├── Figure_S13_Leu51Ser_3D.png
+│   │       │   ├── Figure_S13_Pro186His_3D.png
+│   │       │   ├── Figure_S13_Pro186Ser_3D.png
+│   │       │   └── Figure_S13_Tyr21Cys_3D.png
+│   │       ├── Figure_S13_1_comparative_structural_impact_ranking.png
+│   │       ├── Figure_S13_2_local_CA_RMSD_comparison.png
+│   │       ├── Figure_S13_3_polar_contact_comparison.png
+│   │       ├── Figure_S13_4_contact_changes_comparison.png
+│   │       ├── Figure_S13_5_variant_residue_pLDDT.png
+│   │       ├── Figure_S13_6_catalytic_context_distance_comparison.png
+│   │       └── Figure_S13_7_physicochemical_impact_comparison.png
+│   ├── STEP14_FINAL_VARIANT_EVIDENCE_MATRIX
+│   │   └── figures
+│   │       ├── Figure_S14_1_integrated_variant_evidence.png
+│   │       ├── Figure_S14_2_computational_vs_structural_priority.png
+│   │       └── Figure_S14_3_top_candidate_evidence_profile.png
+│   ├── STEP15_THERAPEUTIC_SITE_MAPPING
+│   │   └── figures
+│   │       ├── Figure_S15_1_PNPLA3_functional_architecture.png
+│   │       ├── Figure_S15_2_D166V_mechanistic_neighborhood.png
+│   │       ├── Figure_S15_3_therapeutic_region_prioritization.png
+│   │       ├── Figure_S15_4_variant_D166_spatial_relationship.png
+│   │       └── Figure_S15_5_candidate_residue_accessibility.png
+│   ├── STEP16_WT_vs_D166V_POCKET_DISCOVERY
+│   │   └── figures
+│   │       ├── Figure_16_01_D166_Pocket_Proximity.png
+│   │       ├── Figure_16_02_WT_vs_D166V_Pocket_Score.png
+│   │       ├── Figure_16_03_WT_vs_D166V_Druggability.png
+│   │       ├── Figure_16_04_D166V_Pocket_Prioritization.png
+│   │       ├── Figure_S16_3_D166V_pocket_proximity.png
+│   │       ├── Figure_S16_4_therapeutic_pocket_prioritization.png
+│   │       └── Figure_S16_5_pocket_remodeling_categories.png
+│   ├── STEP17_FINAL_STRUCTURAL_REMODELING
+│   │   └── figures
+│   │       ├── Figure_17_01_Local_Residue_Displacement.png
+│   │       ├── Figure_17_02_Pocket_Compactness.png
+│   │       ├── Figure_17_03_Residue166_Atom_Displacement.png
+│   │       └── Figure_17_04_Global_Local_Pocket_RMSD.png
+│   ├── STEP17_STRUCTURAL_ENSEMBLE_POCKET_DYNAMICS
+│   │   └── figures
+│   │       ├── Figure_17_01_Ensemble_RMSD.png
+│   │       ├── Figure_17_02_RMSF.png
+│   │       ├── Figure_17_02_WT_vs_D166V_RMSF.png
+│   │       ├── Figure_17_03_D166_Ensemble_Displacement.png
+│   │       ├── Figure_17_03_Pocket_RMSF.png
+│   │       ├── Figure_17_04_Pocket_Center_Displacement.png
+│   │       ├── Figure_17_04_Pocket_Region_Dynamics.png
+│   │       ├── Figure_17_05_Mean_RMSF_Comparison.png
+│   │       ├── Figure_17_05_Pocket_Compactness.png
+│   │       └── Figure_17_06_Static_WT_D166V_Displacement.png
+│   ├── STEP20_PHARMACOPHORE_SHAPE_SCREENING
+│   │   └── figures
+│   │       ├── Figure_20_01_Compound_Screening_Scores.png
+│   │       ├── Figure_20_02_Pharmacophore_Matching.png
+│   │       └── Figure_20_03_Pocket_Chemical_Feature_Map.png
+│   ├── STEP21_VIRTUAL_SCREENING_DOCKING
+│   │   └── figures
+│   │       ├── Figure_21_01_Docking_Scores.png
+│   │       ├── Figure_21_02_Step20_vs_Docking.png
+│   │       └── Figure_21_03_Top_Docking_Candidates.png
+│   ├── STEP23_LEAD_PRIORITIZATION
+│   │   └── figures
+│   │       ├── Figure_23_01_Lead_Prioritization.png
+│   │       ├── Figure_23_02_Step20_vs_Docking.png
+│   │       └── Figure_23_03_WT_vs_D166V.png
+│   ├── STEP24_INTERACTION_FINGERPRINTING
+│   │   └── figures
+│   │       ├── Figure_24_01_Contact_Counts.png
+│   │       ├── Figure_24_02_Residue_Comparison.png
+│   │       ├── Figure_24_03_Interaction_Types.png
+│   │       ├── Figure_24_CID_117902000_D166V_3D.png
+│   │       ├── Figure_24_CID_117902000_WT_3D.png
+│   │       ├── Figure_24_CID_171523990_D166V_3D.png
+│   │       ├── Figure_24_CID_171523990_WT_3D.png
+│   │       ├── Figure_24_CID_56593118_D166V_3D.png
+│   │       ├── Figure_24_CID_56593118_WT_3D.png
+│   │       ├── Figure_24_CID_71236597_D166V_3D.png
+│   │       └── Figure_24_CID_71236597_WT_3D.png
+│   ├── STEP25_D166V_FUNCTIONAL_MECHANISM
+│   │   └── figures
+│   │       ├── Figure_25_01_Local_Environment_Distance.png
+│   │       ├── Figure_25_02_Contact_Remodeling.png
+│   │       └── Figure_25_03_D166V_Physicochemical_Change.png
+│   ├── STEP26_D166V_MASLD_MECHANISTIC_LINK
+│   │   └── figures
+│   │       ├── Figure_26_01_Catalytic_Site_Geometry.png
+│   │       └── Figure_26_02_Mechanistic_Evidence_Layers.png
+│   ├── STEP27_ORTHOGONAL_STRUCTURAL_VALIDATION
+│   │   └── figures
+│   │       ├── Figure_27_01_Independent_Local_Descriptors.png
+│   │       └── Figure_27_02_Independent_Contact_Remodeling.png
+│   ├── STEP28_MUTATION_SPECIFIC_THERAPEUTIC_VULNERABILITY
+│   │   └── figures
+│   │       ├── Figure_28_01_Therapeutic_Vulnerability.png
+│   │       └── Figure_28_02_D166V_vs_WT_Docking_Preference.png
+│   ├── STEP29_LEAD_VALIDATION_RESCORING
+│   │   └── figures
+│   │       ├── Figure_29_01_Lead_Validation_Scores.png
+│   │       └── Figure_29_02_Interaction_Consistency.png
+│   └── STEP30_ADMET_DRUG_DEVELOPMENT_FEASIBILITY
+│       └── figures
+│           ├── Figure_30_01_Development_Priority.png
+│           └── Figure_30_02_ADMET_Development_Profile.png
+├── metadata
+│   ├── environment.txt
+│   ├── EXCLUDED_FILES.csv
+│   └── GITHUB_READY_FILE_MANIFEST.csv
+├── results
+│   ├── STEP10_STRUCTURAL_ANALYSIS
+│   │   ├── logs
+│   │   │   ├── convert_wt_to_pdb.py.stderr.txt
+│   │   │   ├── convert_wt_to_pdb.py.stdout.txt
+│   │   │   ├── generate_D166V_mutant.py.stderr.txt
+│   │   │   ├── generate_D166V_mutant.py.stdout.txt
+│   │   │   ├── render_step10_3d_figures.py.stderr.txt
+│   │   │   ├── render_step10_3d_figures.py.stdout.txt
+│   │   │   └── step10_execution_log.txt
+│   │   ├── QC
+│   │   │   └── Step10_final_QC_report.json
+│   │   ├── structures
+│   │   │   └── WT
+│   │   │       └── structure_source_metadata.json
+│   │   ├── tables
+│   │   │   ├── Table_S10_10_local_pLDDT.csv
+│   │   │   ├── Table_S10_1_structural_candidates.csv
+│   │   │   ├── Table_S10_2_WT_D166_local_environment.csv
+│   │   │   ├── Table_S10_3_D166V_local_environment.csv
+│   │   │   ├── Table_S10_4_D166V_contact_comparison.csv
+│   │   │   ├── Table_S10_5_WT_D166_candidate_polar_contacts.csv
+│   │   │   ├── Table_S10_6_D166V_candidate_polar_contacts.csv
+│   │   │   ├── Table_S10_7_D166V_physicochemical_context.csv
+│   │   │   ├── Table_S10_8_D166V_structural_metrics.csv
+│   │   │   └── Table_S10_9_local_distance_comparison.csv
+│   │   ├── Step10_final_summary.txt
+│   │   └── structure_source_metadata.json
+│   ├── STEP11_D166V_CATALYTIC_CONTEXT
+│   │   ├── QC
+│   │   │   └── Step11_final_QC_report.json
+│   │   ├── tables
+│   │   │   ├── Table_S11_1_D166V_catalytic_context.csv
+│   │   │   ├── Table_S11_2_WT_vs_D166V_local_interactions.csv
+│   │   │   ├── Table_S11_3_residue_distance_changes.csv
+│   │   │   ├── Table_S11_4_D166V_physicochemical_change.csv
+│   │   │   ├── Table_S11_5_WT_D166_candidate_polar_contacts.csv
+│   │   │   ├── Table_S11_6_D166V_candidate_polar_contacts.csv
+│   │   │   ├── Table_S11_7_candidate_polar_contact_summary.csv
+│   │   │   └── Table_S11_8_D166V_structural_impact_summary.csv
+│   │   └── Step11_final_summary.txt
+│   ├── STEP12_INTEGRATED_INTERPRETATION
+│   │   ├── QC
+│   │   │   └── Step12_final_QC_report.json
+│   │   ├── tables
+│   │   │   ├── Table_S12_1_integrated_evidence.csv
+│   │   │   ├── Table_S12_2_computational_evidence.csv
+│   │   │   ├── Table_S12_3_structural_evidence.csv
+│   │   │   └── Table_S12_4_functional_interpretation.csv
+│   │   └── Step12_final_summary.txt
+│   ├── STEP13_COMPARATIVE_STRUCTURAL_ANALYSIS
+│   │   ├── QC
+│   │   │   └── Step13_final_QC_report.json
+│   │   ├── tables
+│   │   │   ├── Table_S13_1_all9_structural_comparison.csv
+│   │   │   ├── Table_S13_2_all9_heavy_atom_contacts.csv
+│   │   │   ├── Table_S13_3_all9_candidate_polar_contacts.csv
+│   │   │   ├── Table_S13_4_all9_local_distance_profiles.csv
+│   │   │   ├── Table_S13_5_all9_local_RMSD_and_pLDDT.csv
+│   │   │   ├── Table_S13_6_final_structural_ranking.csv
+│   │   │   ├── Table_S13_7_mutant_validation.csv
+│   │   │   ├── Table_S13_8_candidate_WT_validation.csv
+│   │   │   └── Table_S13_9_PyMOL_3D_figure_inventory.csv
+│   │   └── Step13_final_summary.txt
+│   ├── STEP14_FINAL_VARIANT_EVIDENCE_MATRIX
+│   │   ├── QC
+│   │   │   └── Step14_final_QC_report.json
+│   │   ├── tables
+│   │   │   ├── Table_S14_1_final_variant_evidence_matrix.csv
+│   │   │   ├── Table_S14_2_top_candidate_evidence.csv
+│   │   │   ├── Table_S14_3_structural_comparison_summary.csv
+│   │   │   └── Table_S14_4_downstream_candidate_prioritization.csv
+│   │   └── Step14_final_summary.txt
+│   ├── STEP15_THERAPEUTIC_SITE_MAPPING
+│   │   ├── QC
+│   │   │   └── Step15_final_QC_report.json
+│   │   ├── tables
+│   │   │   ├── Table_S15_1_PNPLA3_functional_architecture.csv
+│   │   │   ├── Table_S15_2_catalytic_mechanistic_residues.csv
+│   │   │   ├── Table_S15_3_D166V_mechanistic_neighborhood.csv
+│   │   │   ├── Table_S15_4_nine_structural_candidates_site_mapping.csv
+│   │   │   ├── Table_S15_5_candidate_therapeutic_regions.csv
+│   │   │   ├── Table_S15_6_therapeutic_region_prioritization.csv
+│   │   │   ├── Table_S15_7_D166V_mechanistic_summary.csv
+│   │   │   ├── Table_S15_8_residue_accessibility.csv
+│   │   │   └── Table_S15_9_catalytic_neighborhood.csv
+│   │   ├── Step15_final_site_recommendation.json
+│   │   └── Step15_final_summary.txt
+│   ├── STEP16_WT_vs_D166V_POCKET_DISCOVERY
+│   │   ├── pockets
+│   │   │   ├── D166V
+│   │   │   │   └── PNPLA3_D166V_mutant_info.txt
+│   │   │   └── WT
+│   │   │       └── PNPLA3_WT_info.txt
+│   │   ├── QC
+│   │   │   ├── Step16_final_QC_report.json
+│   │   │   └── Step16_QC_Summary.json
+│   │   ├── tables
+│   │   │   ├── Table_16_01_WT_Pocket_Descriptors.csv
+│   │   │   ├── Table_16_02_D166V_Pocket_Descriptors.csv
+│   │   │   ├── Table_16_03_WT_vs_D166V_Pocket_Comparison.csv
+│   │   │   ├── Table_16_04_D166V_Pocket_Prioritization.csv
+│   │   │   ├── Table_S16_1_WT_pockets.csv
+│   │   │   ├── Table_S16_2_D166V_pockets.csv
+│   │   │   ├── Table_S16_3_WT_vs_D166V_pocket_comparison.csv
+│   │   │   ├── Table_S16_4_D166V_centered_pockets.csv
+│   │   │   ├── Table_S16_5_pocket_lining_residue_changes.csv
+│   │   │   └── Table_S16_6_final_therapeutic_pocket_prioritization.csv
+│   │   ├── STEP16_ANALYSIS_SUMMARY.txt
+│   │   └── Step16_D166V_mechanistic_pocket_summary.json
+│   ├── STEP17_FINAL_STRUCTURAL_REMODELING
+│   │   ├── QC
+│   │   │   └── Step17_Final_QC_Summary.json
+│   │   ├── tables
+│   │   │   ├── Table_17_01_Final_Structural_Summary.csv
+│   │   │   ├── Table_17_02_Residue166_Atom_Comparison.csv
+│   │   │   ├── Table_17_03_Local_Residue_Displacement.csv
+│   │   │   ├── Table_17_04_Pocket_Residue_Comparison.csv
+│   │   │   ├── Table_17_05_D166_Contact_Comparison.csv
+│   │   │   └── Table_17_06_Residue166_Sidechain_Comparison.csv
+│   │   └── STEP17_FINAL_INTERPRETATION.txt
+│   ├── STEP17_STRUCTURAL_ENSEMBLE_POCKET_DYNAMICS
+│   │   ├── QC
+│   │   │   └── Step17_QC_Summary.json
+│   │   ├── tables
+│   │   │   ├── Table_17_01_WT_RMSF.csv
+│   │   │   ├── Table_17_02_D166V_RMSF.csv
+│   │   │   ├── Table_17_02_WT_Residue166_Ensemble_Mobility.csv
+│   │   │   ├── Table_17_03_D166V_Residue166_Ensemble_Mobility.csv
+│   │   │   ├── Table_17_03_WT_Pocket1_Local_Dynamics.csv
+│   │   │   ├── Table_17_04_D166V_Pocket1_Local_Dynamics.csv
+│   │   │   ├── Table_17_04_WT_Pocket_Region_Dynamics.csv
+│   │   │   ├── Table_17_05_D166V_Pocket_Region_Dynamics.csv
+│   │   │   ├── Table_17_05_WT_vs_D166V_RMSF.csv
+│   │   │   ├── Table_17_06_WT_vs_D166V_Pocket1_Comparison.csv
+│   │   │   ├── Table_17_06_WT_vs_D166V_RMSF.csv
+│   │   │   ├── Table_17_07_Ensemble_Dynamics_Summary.csv
+│   │   │   ├── Table_17_07_Static_WT_vs_D166V_Structural_Difference.csv
+│   │   │   ├── Table_17_08_Dynamic_Therapeutic_Pocket_Summary.csv
+│   │   │   ├── Table_17_08_Step17_Summary.csv
+│   │   │   ├── Table_17_09_WT_Pocket1_Geometry.csv
+│   │   │   ├── Table_17_10_D166V_Pocket1_Geometry.csv
+│   │   │   ├── Table_17_11_WT_D166_Mobility.csv
+│   │   │   └── Table_17_12_D166V_V166_Mobility.csv
+│   │   ├── STEP17_ANALYSIS_SUMMARY.txt
+│   │   └── STEP17_INTERPRETATION.txt
+│   ├── STEP18_THERAPEUTIC_COMPOUND_LIBRARY
+│   │   ├── QC
+│   │   │   ├── STEP18_MANIFEST.txt
+│   │   │   └── STEP18_QC.json
+│   │   ├── reports
+│   │   │   └── STEP18_INTERPRETATION.txt
+│   │   └── tables
+│   │       ├── STEP18_MASTER_COMPOUND_LIBRARY.csv
+│   │       ├── STEP18_SCREENING_READY_LIBRARY.csv
+│   │       ├── STEP18_SEARCH_PROVENANCE.csv
+│   │       ├── STEP18_SOURCE_SUMMARY.csv
+│   │       └── Table_18_01_Search_Provenance.csv
+│   ├── STEP19_DRUG_LIKENESS_FILTERING
+│   │   ├── QC
+│   │   │   └── STEP19_QC.json
+│   │   ├── reports
+│   │   │   └── STEP19_INTERPRETATION.txt
+│   │   └── tables
+│   │       ├── STEP19_CLASS_SUMMARY.csv
+│   │       ├── STEP19_MASTER_DRUG_LIKENESS_TABLE.csv
+│   │       ├── STEP19_PROPERTY_FILTER_SUMMARY.csv
+│   │       └── STEP19_SCREENING_READY_LIBRARY.csv
+│   ├── STEP20_PHARMACOPHORE_SHAPE_SCREENING
+│   │   ├── QC
+│   │   │   ├── STEP20_CONFORMER_FAILURES.csv
+│   │   │   ├── STEP20_MANIFEST.txt
+│   │   │   └── STEP20_QC.json
+│   │   ├── reports
+│   │   │   └── STEP20_INTERPRETATION.txt
+│   │   └── tables
+│   │       ├── STEP20_CLASS_SUMMARY.csv
+│   │       ├── STEP20_PHARMACOPHORE_SHAPE_SCREENING.csv
+│   │       ├── STEP20_POCKET_PHARMACOPHORE_FEATURES.csv
+│   │       └── STEP20_POCKET_SUMMARY.csv
+│   ├── STEP21_VIRTUAL_SCREENING_DOCKING
+│   │   ├── qc
+│   │   │   ├── STEP21_INTERPRETATION.txt
+│   │   │   ├── STEP21_MANIFEST.txt
+│   │   │   └── STEP21_QC.json
+│   │   └── tables
+│   │       ├── STEP21_BEST_DOCKING_RESULTS.csv
+│   │       ├── STEP21_COMPLETE_DOCKING_SUMMARY.csv
+│   │       ├── STEP21_DOCKING_FAILURES.csv
+│   │       └── STEP21_POSE_LEVEL_RESULTS.csv
+│   ├── STEP22_WT_vs_D166V_DIFFERENTIAL_DOCKING
+│   │   ├── qc
+│   │   │   ├── STEP22_INTERPRETATION.txt
+│   │   │   ├── STEP22_MANIFEST.txt
+│   │   │   └── STEP22_QC.json
+│   │   └── tables
+│   │       ├── STEP22_D166V_POSE_LEVEL_RESULTS.csv
+│   │       ├── STEP22_WT_POSE_LEVEL_RESULTS.csv
+│   │       └── STEP22_WT_vs_D166V_DIFFERENTIAL_DOCKING.csv
+│   ├── STEP23_LEAD_PRIORITIZATION
+│   │   ├── qc
+│   │   │   ├── STEP23_INTERPRETATION.txt
+│   │   │   └── STEP23_QC.json
+│   │   └── tables
+│   │       ├── STEP23_EVIDENCE_COMPONENT_SCORES.csv
+│   │       ├── STEP23_LEAD_PRIORITIZATION.csv
+│   │       └── STEP23_TOP_LEADS.csv
+│   ├── STEP24_INTERACTION_FINGERPRINTING
+│   │   ├── qc
+│   │   │   ├── STEP24_INTERPRETATION.txt
+│   │   │   └── STEP24_QC.json
+│   │   └── tables
+│   │       ├── STEP24_ATOM_LEVEL_CONTACTS.csv
+│   │       ├── STEP24_INTERACTION_TYPE_MATRIX.csv
+│   │       ├── STEP24_INTERACTION_TYPE_SUMMARY.csv
+│   │       ├── STEP24_LEAD_INTERACTION_SUMMARY.csv
+│   │       ├── STEP24_RESIDUE_INTERACTION_FINGERPRINT.csv
+│   │       ├── STEP24_TOP_INTERACTING_RESIDUES.csv
+│   │       └── STEP24_WT_vs_D166V_INTERACTION_COMPARISON.csv
+│   ├── STEP25_D166V_FUNCTIONAL_MECHANISM
+│   │   ├── qc
+│   │   │   ├── STEP25_INTERPRETATION.txt
+│   │   │   └── STEP25_QC.json
+│   │   └── tables
+│   │       ├── STEP25_D166V_Candidate_HBond_Geometry.csv
+│   │       ├── STEP25_D166V_Contacts.csv
+│   │       ├── STEP25_D166V_FUNCTIONAL_MECHANISM_SUMMARY.csv
+│   │       ├── STEP25_D166V_Local_Atom_Environment.csv
+│   │       ├── STEP25_D166V_Local_Environment.csv
+│   │       ├── STEP25_D166V_Local_Residue_Environment.csv
+│   │       ├── STEP25_D166V_Residue_166_Contact_Summary.csv
+│   │       ├── STEP25_D166V_Target_Residue_Metrics.csv
+│   │       ├── STEP25_WT_D166_Candidate_HBond_Geometry.csv
+│   │       ├── STEP25_WT_D166_Contacts.csv
+│   │       ├── STEP25_WT_D166_Local_Atom_Environment.csv
+│   │       ├── STEP25_WT_D166_Local_Environment.csv
+│   │       ├── STEP25_WT_Local_Residue_Environment.csv
+│   │       ├── STEP25_WT_Residue_166_Contact_Summary.csv
+│   │       ├── STEP25_WT_vs_D166V_Contact_Comparison.csv
+│   │       └── STEP25_WT_vs_D166V_Local_Environment.csv
+│   ├── STEP25_WT_CID71236597_MD
+│   │   └── md
+│   │       └── NVT_equilibration.csv
+│   ├── STEP26_D166V_MASLD_MECHANISTIC_LINK
+│   │   ├── qc
+│   │   │   ├── STEP26_INTERPRETATION.txt
+│   │   │   └── STEP26_QC.json
+│   │   └── tables
+│   │       ├── STEP26_Catalytic_Site_Geometry.csv
+│   │       ├── STEP26_ESTABLISHED_BIOLOGICAL_CONTEXT.csv
+│   │       ├── STEP26_FINAL_MECHANISTIC_INTEGRATION.csv
+│   │       ├── STEP26_MASLD_MECHANISTIC_EVIDENCE_MATRIX.csv
+│   │       └── STEP26_Step25_Summary_CarryForward.csv
+│   ├── STEP27_ORTHOGONAL_STRUCTURAL_VALIDATION
+│   │   ├── QC
+│   │   │   ├── STEP27_INTERPRETATION.txt
+│   │   │   ├── STEP27_METHOD_CONTROL.json
+│   │   │   └── STEP27_QC.json
+│   │   └── tables
+│   │       ├── STEP27_BACKBONE_RMSD_CONTROL.csv
+│   │       ├── STEP27_INDEPENDENT_CONTACT_COMPARISON.csv
+│   │       ├── STEP27_ORTHOGONAL_EVIDENCE_MATRIX.csv
+│   │       └── STEP27_RESIDUE_166_INDEPENDENT_METRICS.csv
+│   ├── STEP28_MUTATION_SPECIFIC_THERAPEUTIC_VULNERABILITY
+│   │   ├── QC
+│   │   │   ├── STEP28_INTERPRETATION.txt
+│   │   │   └── STEP28_QC.json
+│   │   └── tables
+│   │       ├── STEP28_DOCKING_PREFERENCE_COUNTS.csv
+│   │       ├── STEP28_FULL_THERAPEUTIC_VULNERABILITY_ANALYSIS.csv
+│   │       ├── STEP28_INTERPRETATION_COUNTS.csv
+│   │       ├── STEP28_STRUCTURAL_CONTEXT.json
+│   │       └── STEP28_THERAPEUTIC_VULNERABILITY_SUMMARY.csv
+│   ├── STEP29_LEAD_VALIDATION_RESCORING
+│   │   ├── QC
+│   │   │   ├── STEP29_INTERPRETATION.txt
+│   │   │   └── STEP29_QC.json
+│   │   └── tables
+│   │       ├── STEP29_FULL_LEAD_VALIDATION.csv
+│   │       ├── STEP29_INTERACTION_CONSISTENCY.csv
+│   │       ├── STEP29_TOP_LEAD_VALIDATION.csv
+│   │       └── STEP29_VALIDATION_CLASS_COUNTS.csv
+│   ├── STEP30_ADMET_DRUG_DEVELOPMENT_FEASIBILITY
+│   │   ├── QC
+│   │   │   ├── STEP30_INTERPRETATION.txt
+│   │   │   ├── STEP30_PROVENANCE.json
+│   │   │   └── STEP30_QC.json
+│   │   └── tables
+│   │       ├── STEP30_ADMET_DEVELOPMENT_SUMMARY.csv
+│   │       ├── STEP30_DEVELOPMENT_CLASS_COUNTS.csv
+│   │       └── STEP30_FULL_ADMET_DEVELOPMENT_ANALYSIS.csv
+│   ├── STEP31_INDEPENDENT_BIOLOGICAL_VALIDATION
+│   │   ├── QC
+│   │   │   ├── STEP31_INTERPRETATION.txt
+│   │   │   └── STEP31_QC.json
+│   │   └── tables
+│   │       ├── STEP31_COMPUTATION_LITERATURE_MATCHING.csv
+│   │       ├── STEP31_D166V_LITERATURE_SEARCH_STATUS.csv
+│   │       ├── STEP31_EVIDENCE_STATUS_SUMMARY.csv
+│   │       ├── STEP31_LITERATURE_EVIDENCE.csv
+│   │       └── STEP31_REFERENCES.csv
+│   ├── STEP32_FINAL_EVIDENCE_INTEGRATION
+│   │   ├── QC
+│   │   │   ├── STEP32_FINAL_SCIENTIFIC_CONCLUSION.txt
+│   │   │   ├── STEP32_QC.json
+│   │   │   └── STEP32_REMAINING_EVIDENCE_GAP.txt
+│   │   └── tables
+│   │       ├── STEP32_EVIDENCE_COMPLETENESS_PROFILE.csv
+│   │       ├── STEP32_MASTER_EVIDENCE_CHAIN.csv
+│   │       ├── STEP32_QUANTITATIVE_EVIDENCE_SUMMARY.json
+│   │       └── STEP32_THESIS_CLAIM_GUIDANCE.csv
+│   └── STEP33_FINAL_PUBLICATION_PACKAGE
+│       ├── manuscript_support
+│       │   ├── STEP33_FINAL_SCIENTIFIC_CONCLUSION.txt
+│       │   ├── STEP33_LIMITATIONS.csv
+│       │   └── STEP33_THESIS_CLAIM_GUIDANCE.csv
+│       ├── qc
+│       │   ├── STEP33_FIGURE_INVENTORY.csv
+│       │   ├── STEP33_FINAL_QC_REPORT.txt
+│       │   ├── STEP33_PROVENANCE_NOTES.json
+│       │   ├── STEP33_QC.json
+│       │   ├── STEP33_REPRODUCIBILITY_MANIFEST.csv
+│       │   └── STEP33_RESULTS_FILE_MANIFEST.csv
+│       ├── tables
+│       │   ├── STEP33_FINAL_THERAPEUTIC_LEAD.csv
+│       │   ├── STEP33_FINAL_VARIANT_EVIDENCE.csv
+│       │   ├── STEP33_MASTER_SCIENTIFIC_EVIDENCE.csv
+│       │   └── STEP33_STEP_STATUS.csv
+│       └── README.txt
+├── scripts
+│   ├── 01_download_clinvar .py
+│   ├── 02_clean_clinvar.py
+│   ├── 02a_inspect_clinvar.py
+│   ├── 02b_create_master_clinvar.py
+│   ├── 03_filter_pnpla3.py
+│   ├── 04_separate_clinical_groups.py
+│   ├── 05_create_candidate_master.py
+│   ├── 06_population_frequency.py
+│   ├── 07_gnomad_population_annotation.py
+│   ├── 07b_gnomad_population_annotation_final.py
+│   ├── 07b_prepare_exact_gnomad_variants.py
+│   ├── 07c_final_gnomad_annotation.py
+│   ├── 07d_diagnose_failed_gnomad_variants.py
+│   ├── 07f_final_gnomad_release_check.py
+│   ├── 07g_final_gnomad_release_check.py
+│   ├── 08_finalize_gnomad_population_frequency.py
+│   ├── 08a_prepare_step9_annotation_input.py
+│   ├── 08b_alphamissense_annotation.py
+│   ├── 08c_cadd_annotation.py
+│   ├── 08c_finalize_cadd_annotation.py
+│   ├── 08c_prepare_cadd_vcf.py
+│   ├── 08d_integrated_variant_prioritization.py
+│   ├── 08e_high_priority_variant_contextualization.py
+│   ├── 08f_final_mutant_candidate_selection.py
+│   ├── 09_step10_pnpla3_structural_preparation_analysis.py
+│   ├── 10_pnpla3_wt_mutant_structural_analysis.py
+│   ├── 11_D166V_catalytic_context.py
+│   ├── 12_integrated_structural_functional_interpretation.py
+│   ├── 13_comparative_structural_analysis_all9.py
+│   ├── 14_final_variant_evidence_matrix.py
+│   ├── 15_PNPLA3_therapeutic_target_mapping.py
+│   ├── 16_WT_vs_D166V_pocket_discovery.py
+│   ├── 17_structural_ensemble_pocket_dynamics.py
+│   ├── 18_therapeutic_compound_library.py
+│   ├── 19_drug_likeness_filtering.py
+│   ├── 20_pharmacophore_shape_screening.py
+│   ├── 21_virtual_screening_docking.py
+│   ├── 22_WT_vs_D166V_differential_docking.py
+│   ├── 23_lead_prioritization.py
+│   ├── 24_interaction_fingerprinting.py
+│   ├── 25_D166V_FUNCTIONAL_MECHANISM_ANALYSIS.py
+│   ├── 25_WT_CID71236597_MD.py
+│   ├── 25A_prepare_WT_CID71236597_for_GPU.py
+│   ├── 26_D166V_MASLD_MECHANISTIC_LINK.py
+│   ├── 27_D166V_ORTHOGONAL_STRUCTURAL_VALIDATION.py
+│   ├── 28_D166V_THERAPEUTIC_VULNERABILITY.py
+│   ├── 29_LEAD_VALIDATION_RESCORING.py
+│   ├── 30_ADMET_DRUG_DEVELOPMENT_FEASIBILITY.py
+│   ├── 31_INDEPENDENT_BIOLOGICAL_VALIDATION.py
+│   ├── 32_FINAL_EVIDENCE_INTEGRATION.py
+│   ├── 33_FINAL_PUBLICATION_PACKAGE.py
+│   └── create_github_ready_package.py
+├── structures
+│   ├── CID_71236597.pdbqt
+│   ├── CID_71236597_exact_docked_with_H.pdb
+│   ├── PNPLA3_D166V_mutant.pdb
+│   └── PNPLA3_WT.pdb
+├── .gitignore
+├── CITATION.cff
+├── LICENSE_STATUS.txt
+├── README.md
+└── requirements.txt

@@ -1,0 +1,20 @@
+{
+  "Step": 33,
+  "Project_Title": "Computational prioritization and mechanistic characterization of the unresolved PNPLA3 D166V variant in MASLD with structure-guided therapeutic candidate prioritization",
+  "Variant": "PNPLA3 p.Asp166Val (D166V)",
+  "rsID": "rs1381635405",
+  "VariationID": "3308171",
+  "Primary_CID": "71236597",
+  "Step9F_resolved": false,
+  "Expected_tables_verified": 13,
+  "Expected_tables_total": 13,
+  "Master_evidence_domains": 15,
+  "Supported_evidence_domains": 11,
+  "Limited_evidence_domains": 2,
+  "Inference_or_unresolved_domains": 2,
+  "Figure_count": 94,
+  "Reproducibility_script_count": 25,
+  "File_manifest_count": 458,
+  "Step29_interaction_validation_limitation": true,
+  "Status": "PASS"
+}

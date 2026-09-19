@@ -1,0 +1,16 @@
+Evidence_ID,Domain,Evidence,Status,Interpretation,Main_Limitation
+E01,Variant prioritization,D166V selected as primary unresolved PNPLA3 structural-analysis candidate.,SUPPORTED,Project-level computational prioritization.,Prioritization does not establish pathogenicity.
+E02,Population context,D166V has very low observed gnomAD allele frequency in Step 9F.,SUPPORTED,Compatible with a rare-variant investigation.,Rarity alone does not establish pathogenicity.
+E03,Residue substitution,Asp166 is replaced by Val166.,SUPPORTED,Direct structural consequence of the mutation model.,Static structural model.
+E04,Local chemical effect,Hydropathy changes from -3.5 to +4.2 and approximate charge changes from -1 to 0.,COMPUTATIONALLY_SUPPORTED,Strong physicochemical change at the substituted residue.,Descriptors are approximate and do not measure thermodynamic effects.
+E05,Contact remodeling,Step 25 identifies 20 lost and 8 gained residue-166 contacts.,COMPUTATIONALLY_SUPPORTED,Local interaction-network remodeling.,Distance-based structural contacts.
+E06,Independent structural validation,Step 27 reports increased residue-166 SASA and reduced heavy-atom and polar contacts while global Cα RMSD remains ~0.001 Å.,COMPUTATIONALLY_SUPPORTED,Independent descriptors reproduce the local alteration.,Still based on static structural models.
+E07,PNPLA3 biological function,Independent literature establishes PNPLA3 involvement in hepatic lipid metabolism.,LITERATURE_SUPPORTED,Provides biological context for the structural mechanism.,Most direct functional studies are not D166V-specific.
+E08,PNPLA3–MASLD relationship,Independent literature establishes a strong relationship between PNPLA3 variation and steatotic liver disease.,LITERATURE_SUPPORTED,Provides disease context.,D166V-specific disease causality remains untested.
+E09,Disease mechanism,D166V structural alteration is consistent with a function-altering PNPLA3 mechanism.,MECHANISTIC_INFERENCE,Computationally plausible disease mechanism.,No D166V biochemical or cellular experiment.
+E10,Therapeutic pocket,Residue 166 lies within the previously prioritized pocket.,COMPUTATIONALLY_SUPPORTED,The altered region is structurally targetable.,Pocket analysis does not prove binding.
+E11,Lead docking,CID 71236597 scores -10.262 kcal/mol on D166V versus -9.296 kcal/mol on WT.,COMPUTATIONALLY_SUPPORTED,D166V-preferred docking signal.,Docking scores are not measured affinities.
+E12,Therapeutic specificity,"Step 28 classifies CID 71236597 as D166V-preferred, but not as strict mutation-specific support.",LIMITED,Therapeutic hypothesis remains testable.,No functional rescue experiment.
+E13,Interaction validation,Step 29 could not reconstruct explicit WT/D166V interaction fingerprints from Step 24.,LIMITED,Interaction-level validation remains incomplete.,Do not interpret Jaccard=0 as absence of shared interactions.
+E14,Chemical development,CID 71236597 has favorable physicochemical development descriptors in Step 30.,COMPUTATIONALLY_SUPPORTED,Reasonable physicochemical developability profile.,Not experimental ADMET.
+E15,Independent biological validation,Targeted literature search did not identify direct peer-reviewed functional characterization of D166V.,UNRESOLVED,Supports novelty of the functional question.,Search outcome is not proof that no publication exists anywhere.
