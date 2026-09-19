@@ -1,0 +1,2 @@
+Variant,Protein_Position,Reference_AA,Alternate_AA,Residue_166_pLDDT,C_alpha_RMSD_A,Backbone_RMSD_A,Local_C_alpha_RMSD_A,WT_Heavy_Atom_Contacts,D166V_Heavy_Atom_Contacts,Retained_Contacts,Lost_Contacts,Gained_Contacts,WT_Candidate_Polar_Contacts,D166V_Candidate_Polar_Contacts,Polar_Contact_Change,Ser47_WT_Distance_A,Ser47_D166V_Distance_A,Ser47_Distance_Change_A,Pro186_WT_Distance_A,Pro186_D166V_Distance_A,Pro186_Distance_Change_A
+p.Asp166Val,166,Asp,Val,94.88,0.001,0.0009,0.0045,11,11,11,0,0,13,9,-4,2.668748,3.561141,0.892393,12.260629,12.795785,0.535155

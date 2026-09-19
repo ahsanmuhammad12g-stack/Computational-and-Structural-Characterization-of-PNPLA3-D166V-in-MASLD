@@ -1,0 +1,12 @@
+Feature,Value
+Wild_Type_Amino_Acid,Aspartate (D)
+Mutant_Amino_Acid,Valine (V)
+Wild_Type_Charge,Negative
+Mutant_Charge,Neutral
+Wild_Type_Polarity,Polar
+Mutant_Polarity,Non-polar
+Wild_Type_Functional_Group,Carboxylate
+Mutant_Functional_Group,Hydrocarbon side chain
+Wild_Type_Residue_Position,166
+Mutation,D166V
+Interpretation,"D166V replaces an acidic, polar, negatively charged side chain with a neutral, non-polar valine side chain."

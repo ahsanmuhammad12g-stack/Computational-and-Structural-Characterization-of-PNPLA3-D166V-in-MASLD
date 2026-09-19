@@ -1,0 +1,107 @@
+STEP 17 — STRUCTURAL ENSEMBLE & POCKET DYNAMICS
+================================================
+
+Method
+------
+A deterministic structural ensemble was generated for WT PNPLA3
+and D166V PNPLA3 using smooth collective coordinate perturbations.
+
+No ProDy was used.
+
+No random coordinate jitter was used.
+
+The generated ensemble contains 21 conformations
+per structure.
+
+The maximum imposed coordinate displacement amplitude was
+1.00 Å.
+
+This is an ensemble-based structural analysis and is NOT molecular
+dynamics simulation.
+
+WT
+--
+PDB:
+C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP10_STRUCTURAL_ANALYSIS\structures\WT\PNPLA3_WT.pdb
+
+Chain:
+A
+
+CA residues:
+481
+
+Residue 166:
+ASP166
+
+Mean global CA RMSD:
+0.6678 Å
+
+Maximum global CA RMSD:
+0.8648 Å
+
+Mean residue-166 displacement:
+0.5564 Å
+
+Maximum residue-166 displacement:
+0.9624 Å
+
+Pocket-region residues:
+16
+
+
+D166V
+-----
+PDB:
+C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP10_STRUCTURAL_ANALYSIS\structures\D166V\PNPLA3_D166V_mutant.pdb
+
+Chain:
+A
+
+CA residues:
+481
+
+Residue 166:
+VAL166
+
+Mean global CA RMSD:
+0.6678 Å
+
+Maximum global CA RMSD:
+0.8648 Å
+
+Mean residue-166 displacement:
+0.5564 Å
+
+Maximum residue-166 displacement:
+0.9624 Å
+
+Pocket-region residues:
+16
+
+
+STEP 16 POCKET LINK
+-------------------
+The Step 16 highest-priority D166V pocket was reused.
+
+Selected pocket:
+1
+
+No fpocket calculation was repeated for individual ensemble
+conformations.
+
+The Step 17 pocket analysis therefore represents structural
+dynamics of the residue-166-centered pocket region rather than
+direct dynamic fpocket volume/druggability measurements.
+
+
+IMPORTANT INTERPRETATION
+------------------------
+The ensemble analysis provides a computational assessment of
+relative structural mobility and persistence around the D166/D166V
+region.
+
+It should not be described as molecular dynamics, binding-energy
+analysis, free-energy analysis, or experimental validation.
+
+The results can be used to prioritize regions for subsequent
+therapeutic compound screening, docking, and later MD analysis.

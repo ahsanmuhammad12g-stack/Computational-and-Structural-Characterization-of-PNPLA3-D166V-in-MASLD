@@ -1,0 +1,30 @@
+STEP 21 — VIRTUAL SCREENING / MOLECULAR DOCKING
+
+Docking engine: AutoDock Vina 1.2.5
+Receptor: PNPLA3 D166V
+Target: D166V Pocket 1
+
+Docking center: 2.1950, 8.9330, -5.5020 Å
+Docking box: 20.0 × 20.0 × 20.0 Å
+Exhaustiveness: 16
+Number of modes: 10
+Energy range: 4.0
+Seed: 20260910
+
+Input compounds: 10
+Successful dockings: 10
+Failed dockings: 0
+
+Top docking candidate:
+CID: 71236597
+IUPAC name: 8-[[3,5-difluoro-4-[[6-(trifluoromethyl)-3-pyridinyl]oxy]phenyl]methoxy]-1-methyl-3,4-dihydro-2H-pyrimido[1,2-c]pyrimidin-6-one
+Best Vina score: -10.262 kcal/mol
+Score category: STRONGER_SCREENING_SCORE
+
+Scientific interpretation:
+The docking results provide computational structural hypotheses for ligand placement within the predefined D166V Pocket 1.
+More negative Vina values indicate more favorable AutoDock Vina scoring-function results under the same computational protocol.
+
+Important limitation:
+Vina docking scores are not experimental binding affinities and do not establish biochemical inhibition, therapeutic efficacy, or D166V selectivity.
+WT-vs-D166V differential docking and subsequent interaction analysis are required for mutation-specific interpretation.

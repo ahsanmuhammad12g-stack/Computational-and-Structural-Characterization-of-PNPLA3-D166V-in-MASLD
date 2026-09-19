@@ -1,0 +1,98 @@
+================================================================================
+STEP 10 — PNPLA3 STRUCTURAL ANALYSIS
+================================================================================
+
+Project root: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3
+Step 10 directory: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP10_STRUCTURAL_ANALYSIS
+
+--------------------------------------------------------------------------------
+STEP 1 — LOCATING STEP 9F FINAL CANDIDATE-SELECTION FILE
+--------------------------------------------------------------------------------
+Step 9F file found:
+    C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\VARIANT ANALYSIS\annotations\pnpla3_step9f_final_candidate_selection_FINAL.csv
+
+--------------------------------------------------------------------------------
+STEP 2 — READING STEP 9F DATASET
+--------------------------------------------------------------------------------
+Rows loaded: 82
+Columns loaded: 81
+
+--------------------------------------------------------------------------------
+STEP 3 — STEP 9F DATASET VALIDATION
+--------------------------------------------------------------------------------
+Variant count (82): PASS
+
+--------------------------------------------------------------------------------
+STEP 4 — STRUCTURAL CANDIDATE VALIDATION
+--------------------------------------------------------------------------------
+Structural candidates found: 9
+Structural candidate count: PASS
+
+--------------------------------------------------------------------------------
+STEP 5 — PRIMARY CANDIDATE VALIDATION
+--------------------------------------------------------------------------------
+VariationID: PASS
+Protein_Change: PASS
+Protein_Variant: PASS
+Protein_Position: PASS
+Reference_AA: PASS
+Alternate_AA: PASS
+UniProt_ID: PASS
+Transcript_ID: PASS
+Structural_Candidate: PASS
+Priority_Rank: PASS
+Final_Mutant_Rank: PASS
+
+PRIMARY STRUCTURAL CANDIDATE CONFIRMED:
+    PNPLA3 p.Asp166Val (D166V)
+    VariationID: 3308171
+    UniProt: Q9NST1
+    Position: 166
+    WT amino acid: Asp
+    Mutant amino acid: Val
+
+--------------------------------------------------------------------------------
+STEP 6 — RETRIEVING CANONICAL PNPLA3 SEQUENCE
+--------------------------------------------------------------------------------
+UniProt sequence length: 481
+UniProt residue 166: D
+UniProt canonical residue 166 = Asp: PASS
+
+--------------------------------------------------------------------------------
+STEP 7 — SEARCHING RCSB PDB FOR EXPERIMENTAL STRUCTURES
+--------------------------------------------------------------------------------
+RCSB search returned HTTP 204
+RCSB candidate entries found: 0
+
+No suitable RCSB structure covering residue 166 was found.
+Falling back to current AlphaFold DB record.
+AlphaFold structure downloaded from:
+    https://alphafold.ebi.ac.uk/files/AF-Q9NST1-F1-model_v6.cif
+
+SELECTED WT STRUCTURE
+    Source: AlphaFold_DB
+    Structure ID: Q9NST1-F1
+    File: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP10_STRUCTURAL_ANALYSIS\structures\WT\PNPLA3_Q9NST1_AlphaFold.cif
+    Chain: A
+
+--------------------------------------------------------------------------------
+STEP 11 — WT STRUCTURE VALIDATION
+--------------------------------------------------------------------------------
+WT protein residues in structure: 481
+Structure residue 166: ASP (D)
+WT residue 166 = Asp: PASS
+Structure numbering range: 1-481
+Structure sequence coverage: 481/481 (100.00%)
+Mean structure pLDDT: 71.44
+Residue 166 pLDDT: 94.88
+
+--------------------------------------------------------------------------------
+STEP 12 — CHECKING PYMOl PYTHON ENVIRONMENT
+--------------------------------------------------------------------------------
+
+ERROR: A working PyMOL Python environment was not found.
+
+Expected environment:
+    C:\Users\Asif Computer\miniconda3\envs\pymol\python.exe
+
+The script will NOT create a fake mutant.

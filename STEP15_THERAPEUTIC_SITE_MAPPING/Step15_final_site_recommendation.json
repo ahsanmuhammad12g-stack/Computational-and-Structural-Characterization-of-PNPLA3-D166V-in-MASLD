@@ -1,0 +1,13 @@
+{
+    "Primary_Therapeutic_Region": "D166V-centered mechanistic region",
+    "Primary_Site_ID": "SITE_02",
+    "Primary_Site_Type": "Mutation-proximal mechanistic region",
+    "Primary_Site_Score": 0.809053758172638,
+    "Primary_Site_Category": "High-priority candidate region",
+    "D166V_Remains_Primary_Mechanistic_Variant": true,
+    "Pocket_Discovery_Required": true,
+    "Docking_Performed": false,
+    "Molecular_Dynamics_Performed": false,
+    "Energy_Minimization_Performed": false,
+    "Scientific_Interpretation": "Step 15 identifies candidate PNPLA3 therapeutic regions using biological relevance, validated structural geometry, mutation proximity, residue accessibility and mechanistic context. These are candidate regions rather than experimentally validated ligand-binding pockets. Step 16 must perform explicit WT-versus-D166V pocket discovery and characterization."
+}

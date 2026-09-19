@@ -1,0 +1,60 @@
+==============================================================================
+STEP 15 — PNPLA3 THERAPEUTIC TARGET AND MECHANISTIC SITE MAPPING
+==============================================================================
+
+UniProt: Q9NST1
+Protein length: 481
+Primary variant: p.Asp166Val
+Primary VariationID: 3308171
+Primary residue: 166
+
+INPUT VALIDATION
+----------------
+Step9F rows: 82
+Structural candidates: 9
+Unique structural candidate positions: 8
+WT structure residues: 481
+
+CATALYTIC CONTEXT
+-----------------
+Ser47: validated catalytic-context residue
+Asp166: validated catalytic-context residue
+D166 neighborhood radius: 10.0 Å
+D166 neighborhood residues: 63
+
+DUPLICATE POSITION HANDLING
+----------------------------
+Spatial clustering was calculated at unique protein-position level.
+Multiple variants sharing one residue position were retained as separate variants.
+
+STRUCTURAL CANDIDATE COUNT
+---------------------------
+Variant-level structural candidates: 9
+Unique structural candidate positions: 8
+
+PRIMARY D166V INTERPRETATION
+---------------------------
+D166V remains the primary mechanistic candidate because it directly occupies the validated catalytic context.
+Step 15 does not claim that D166V itself is a drug-binding pocket.
+The D166-centered region is carried forward as a mechanistically justified candidate region for explicit pocket discovery.
+
+THERAPEUTIC REGION PRIORITIZATION
+--------------------------------
+1. D166V-centered mechanistic region | Score=0.8091 | High-priority candidate region
+2. PNPLA3 catalytic-associated region | Score=0.7564 | High-priority candidate region
+3. Accessible catalytic-context surface | Score=0.6717 | Moderate-priority candidate region
+4. Structural-variant spatial hotspot | Score=0.6400 | Moderate-priority candidate region
+
+IMPORTANT LIMITATIONS
+---------------------
+1. No docking was performed in Step 15.
+2. No molecular dynamics was performed in Step 15.
+3. No energy minimization was performed in Step 15.
+4. Candidate therapeutic regions are hypotheses, not proven drug-binding sites.
+5. Step 16 must explicitly identify and compare WT/D166V pockets.
+
+NEXT STEP
+---------
+STEP 16 — WT vs D166V Pocket Discovery: identify, characterize and compare candidate binding pockets, including mutation-sensitive and potentially cryptic pockets.
+
+==============================================================================

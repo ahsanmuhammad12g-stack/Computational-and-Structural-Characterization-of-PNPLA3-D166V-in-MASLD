@@ -1,0 +1,2 @@
+Pocket,Step16_Priority,WT_Mean_RMSF_A,D166V_Mean_RMSF_A,D166V_minus_WT_Mean_RMSF_A,WT_PocketRegion_MeanDisplacement_A,D166V_PocketRegion_MeanDisplacement_A,WT_PocketRegion_Persistence_Percent,D166V_PocketRegion_Persistence_Percent,Interpretation_Note
+1,0.7756874981086447,0.687396924268484,0.687396924268484,0.0,0.5646629851497802,0.5646629851497802,100.0,100.0,"Computational ensemble-based pocket-region dynamics only; not MD, binding-energy, or experimental therapeutic evidence."

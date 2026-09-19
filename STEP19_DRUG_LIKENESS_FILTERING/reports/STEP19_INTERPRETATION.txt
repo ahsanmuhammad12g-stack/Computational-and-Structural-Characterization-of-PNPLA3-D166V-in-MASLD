@@ -1,0 +1,55 @@
+STEP 19 — DRUG-LIKENESS & CHEMICAL FILTERING
+============================================================
+
+Input:
+C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP18_THERAPEUTIC_COMPOUND_LIBRARY\tables\STEP18_SCREENING_READY_LIBRARY.csv
+
+Input compounds:
+15
+
+Drug-likeness classification:
+
+PASS:
+9
+
+BORDERLINE:
+1
+
+FAIL:
+2
+
+INCOMPLETE:
+3
+
+Compounds retained for Step 20:
+10
+
+Criteria:
+- Molecular weight <= 500 Da
+- XLogP <= 5
+- H-bond donors <= 5
+- H-bond acceptors <= 10
+- TPSA <= 140 Å²
+- Rotatable bonds <= 10
+
+IMPORTANT SCIENTIFIC INTERPRETATION
+-----------------------------------
+This step evaluates physicochemical drug-likeness only.
+
+A PASS classification means that the compound satisfies the
+defined chemical-property filters.
+
+A BORDERLINE classification means that the compound satisfies
+most, but not all, of the defined filters and is retained to
+avoid prematurely excluding potentially useful candidates.
+
+A FAIL classification means that the compound does not satisfy
+enough of the defined chemical criteria for the present
+screening workflow.
+
+No compound is considered a PNPLA3 binder, inhibitor,
+therapeutic agent, or D166V-selective molecule on the basis
+of Step 19 alone.
+
+Step 20 should use the retained chemical library for
+pharmacophore/shape-based screening.

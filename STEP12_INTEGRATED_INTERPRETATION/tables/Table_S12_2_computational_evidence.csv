@@ -1,0 +1,2 @@
+Variant,VariationID,AlphaMissense,AlphaMissense_Classification,CADD_PHRED,CADD_Interpretation,Maximum_gnomAD_AF,Population_Rarity,Integrated_Priority_Score,Integrated_Priority_Category,Structural_Relevance_Score,Structural_Relevance_Category,Final_Mutant_Selection_Score,Final_Evidence_Category
+p.Asp166Val,3308171,0.9875,likely_pathogenic,26.0,Potentially deleterious,6.573584707212537e-06,Ultra-rare,14.0,High priority,17.0,Very high structural relevance,26.0,Exceptional integrated evidence

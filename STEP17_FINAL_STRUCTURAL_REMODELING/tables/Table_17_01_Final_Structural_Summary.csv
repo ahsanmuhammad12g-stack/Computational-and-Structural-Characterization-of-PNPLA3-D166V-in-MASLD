@@ -1,0 +1,11 @@
+Metric,WT,D166V,Value,Unit,Interpretation
+Global C-alpha RMSD,Reference,Compared with WT,0.0009585348494844189,Å,Very small global structural difference
+Local C-alpha RMSD around D166,Reference,Compared with WT,0.003917991420927747,Å,Minimal local backbone remodeling
+Maximum local C-alpha displacement,Reference,Compared with WT,0.02109737643282036,Å,Largest local backbone displacement
+Pocket-center displacement,Reference,Compared with WT,0.000725770425771648,Å,Minimal pocket-center displacement
+WT pocket radius of gyration,7.1057962436055995,,7.1057962436055995,Å,Pocket compactness
+D166V pocket radius of gyration,,7.1056313508506115,7.1056313508506115,Å,Pocket compactness
+Pocket Rg difference,7.1057962436055995,7.1056313508506115,-0.0001648927549879886,Å,Essentially unchanged pocket compactness
+Pocket RMSD,Reference,Compared with WT,0.003917991420927747,Å,Pocket-region structural difference
+WT pocket residue count,29,29,29.0,residues,10 Å CA-defined pocket proxy
+Pocket residue identities changed,29,29,1.0,residues,Includes the D166V substitution

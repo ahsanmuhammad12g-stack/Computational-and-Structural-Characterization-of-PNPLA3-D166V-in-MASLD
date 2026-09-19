@@ -1,0 +1,37 @@
+STEP 13 — COMPARATIVE STRUCTURAL ANALYSIS
+========================================================================
+
+Structural candidates analyzed: 9
+WT reference: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP10_STRUCTURAL_ANALYSIS\structures\WT\PNPLA3_WT.pdb
+PyMOL version: 3.1.0
+
+MUTANT GENERATION
+------------------------------------------------------------------------
+All mutants were generated using the PyMOL mutagenesis wizard.
+No residue-name-only substitution was used.
+No energy minimization was performed.
+No molecular dynamics was performed.
+
+FINAL STRUCTURAL RANKING
+------------------------------------------------------------------------
+Rank  1: p.Arg247Thr | Impact=16.787 | Local Cα RMSD=0.0035 Å | WT polar=14 | Mutant polar=11 | Lost contacts=2
+Rank  2: p.Tyr21Cys | Impact=13.024 | Local Cα RMSD=0.0047 Å | WT polar=11 | Mutant polar=10 | Lost contacts=7
+Rank  3: p.Asp166Val | Impact=13.022 | Local Cα RMSD=0.0045 Å | WT polar=13 | Mutant polar=9 | Lost contacts=0
+Rank  4: p.Pro186His | Impact=11.816 | Local Cα RMSD=0.0010 Å | WT polar=4 | Mutant polar=4 | Lost contacts=3
+Rank  5: p.Gly49Trp | Impact=10.193 | Local Cα RMSD=0.0020 Å | WT polar=10 | Mutant polar=16 | Lost contacts=0
+Rank  6: p.Pro186Ser | Impact=7.068 | Local Cα RMSD=0.0073 Å | WT polar=4 | Mutant polar=4 | Lost contacts=2
+Rank  7: p.Leu51Ser | Impact=7.023 | Local Cα RMSD=0.0046 Å | WT polar=9 | Mutant polar=9 | Lost contacts=2
+Rank  8: p.Cys28Arg | Impact=7.018 | Local Cα RMSD=0.0021 Å | WT polar=12 | Mutant polar=19 | Lost contacts=0
+Rank  9: p.Leu142Phe | Impact=5.716 | Local Cα RMSD=0.0031 Å | WT polar=12 | Mutant polar=12 | Lost contacts=1
+
+QUALITY CONTROL
+------------------------------------------------------------------------
+Overall Step 13 QC: PASS
+
+SCIENTIFIC INTERPRETATION NOTE
+------------------------------------------------------------------------
+Step 13 provides comparative structural evidence for the nine prioritized variants. Very small global or local RMSD values should not by themselves be interpreted as evidence of functional neutrality. Structural interpretation should integrate residue chemistry, contact changes, catalytic-context distances, pLDDT confidence, and the computational evidence already established in Steps 9F–12.
+
+The structural impact index is an internal comparative ranking metric and is not a clinical pathogenicity score.
+
+The next downstream analyses should use the prioritized structural evidence together with therapeutic target/binding-site analysis, ligand screening, molecular docking, molecular dynamics, ADMET evaluation, and independent biological validation.

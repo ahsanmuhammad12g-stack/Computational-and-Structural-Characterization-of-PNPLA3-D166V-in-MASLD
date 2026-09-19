@@ -1,0 +1,155 @@
+STEP 17 — STRUCTURE-DERIVED ENSEMBLE & POCKET DYNAMICS
+=======================================================
+
+STEP 16 THERAPEUTIC POCKET
+---------------------------
+Selected pocket:
+    D166V Pocket ID = 1
+    WT Pocket ID    = 1
+
+Match status:
+    Matched
+
+Step 16 remodeling category:
+    Minor remodeling
+
+Druggability:
+    0.8510
+
+Pocket score:
+    0.1200
+
+Pocket volume:
+    602.118 Å³
+
+D166 distance:
+    0.000000 Å
+
+Direct lining:
+    True
+
+Lining Jaccard:
+    1.0000
+
+Prioritization score:
+    0.7757
+
+Prioritization percentile:
+    77.57%
+
+
+METHODOLOGY
+-----------
+Step 17 used the actual WT and D166V PDB structures independently.
+
+The prioritized Step 16 Pocket 1 was represented by a
+residue-166-centered structural region with a 10 Å Cα cutoff.
+
+A low-amplitude structure-derived ensemble was generated for each
+structure using local geometric directions.
+
+This is NOT molecular dynamics.
+
+No ProDy was used.
+No GROMACS was used.
+No random coordinate jitter was used.
+No fpocket rerun was performed.
+
+
+WT
+--
+Mean global RMSF:
+    0.0565 Å
+
+Pocket-region mean RMSF:
+    0.5137 Å
+
+Pocket-region maximum RMSF:
+    0.7167 Å
+
+Mean pocket-center displacement:
+    0.1583 Å
+
+Mean pocket-region radius of gyration:
+    7.1310 Å
+
+
+D166V
+-----
+Mean global RMSF:
+    0.0565 Å
+
+Pocket-region mean RMSF:
+    0.5138 Å
+
+Pocket-region maximum RMSF:
+    0.7168 Å
+
+Mean pocket-center displacement:
+    0.1588 Å
+
+Mean pocket-region radius of gyration:
+    7.1309 Å
+
+
+WT VS D166V
+-----------
+Pocket-region RMSF difference:
+    +0.0001 Å
+
+Pocket-region radius-of-gyration difference:
+    -0.0002 Å
+
+Mean global static WT-D166V displacement:
+    0.0001 Å
+
+Maximum static WT-D166V displacement:
+    0.0210 Å
+
+Mean WT-D166V displacement around residues 156–176:
+    0.0010 Å
+
+
+STRUCTURAL INTERPRETATION
+-------------------------
+The structure-derived ensemble indicates:
+
+    limited difference in ensemble mobility
+
+The pocket-region geometry indicates:
+
+    similar pocket-region compactness
+
+These observations should be interpreted as computational structural
+sensitivity rather than physical time-dependent molecular dynamics.
+
+
+SCIENTIFIC CONCLUSION
+---------------------
+Step 16 identified Pocket 1 as the highest-priority therapeutic
+pocket and showed that residue D166 directly lines the pocket.
+
+Step 17 evaluates whether the D166V substitution produces additional
+structural remodeling within this prioritized region.
+
+The present analysis does not establish binding affinity, binding
+free energy, dynamic druggability, or experimental functional effects.
+
+Any subsequent therapeutic interpretation should therefore combine
+the Step 16 pocket-prioritization evidence with the Step 17
+structure-derived comparison and later docking/MD validation.
+
+
+THESIS-SAFE WORDING
+-------------------
+Recommended wording:
+
+"Structure-derived ensemble analysis was subsequently performed to
+evaluate the local structural sensitivity of the Step 16 prioritized
+pocket to the D166V substitution. The analysis indicated
+[limited/increased/reduced] local ensemble mobility and
+[similar/altered] pocket-region compactness between WT and D166V.
+Because the generated ensemble was not obtained from molecular
+dynamics trajectories, these findings were interpreted as
+structure-derived conformational sensitivity rather than
+time-dependent dynamic behavior."

@@ -1,0 +1,23 @@
+{
+    "Step": 17,
+    "Analysis": "Structure-Derived Ensemble & Pocket Dynamics",
+    "Step16_Pocket": 1,
+    "Step16_WT_Pocket": 1,
+    "Step16_Match_Status": "Matched",
+    "Step16_Drugability": 0.851,
+    "Step16_Volume_A3": 602.118,
+    "Step16_D166_Directly_Lining": true,
+    "ProDy_Used": false,
+    "GROMACS_Used": false,
+    "MD_Performed": false,
+    "fpocket_Rerun": false,
+    "Random_Noise": false,
+    "Ensemble_Size": 21,
+    "Pocket_Radius_A": 10.0,
+    "Maximum_Local_Displacement_A": 0.75,
+    "WT_CA_Residues": 481,
+    "D166V_CA_Residues": 481,
+    "WT_Pocket_Residues": 29,
+    "D166V_Pocket_Residues": 29,
+    "Methodological_Status": "Structure-derived local ensemble; not MD"
+}

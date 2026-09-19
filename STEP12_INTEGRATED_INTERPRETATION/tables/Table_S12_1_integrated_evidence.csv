@@ -1,0 +1,16 @@
+Evidence_Domain,Evidence,Result,Interpretation,Evidence_Level
+Variant_identity,Protein variant,p.Asp166Val,Primary PNPLA3 structural candidate,Validated upstream
+Computational,AlphaMissense,0.9875,likely_pathogenic,Predictive
+Computational,CADD PHRED,26.0,Potentially deleterious,Predictive
+Population,Maximum gnomAD allele frequency,6.573584707212537e-06,Ultra-rare,Population
+Prioritization,Integrated priority,14.0,High priority,Integrated
+Structural,Structural relevance,17.0,Very high structural relevance,Structural
+Structural,Residue 166 pLDDT,94.88,High local model confidence,Structural
+Structural,Backbone RMSD,0.0009,Minimal modeled backbone displacement,Structural
+Structural,Local Cα RMSD ±10 residues,0.0045,Minimal local backbone displacement,Structural
+Catalytic_context,Ser47 minimum heavy-atom distance,3.561141,Increased from 2.669 Å by 0.892 Å,Structural hypothesis
+Catalytic_context,Pro186 minimum heavy-atom distance,12.795785,Increased from 12.261 Å by 0.535 Å,Structural hypothesis
+Interactions,Heavy-atom contacts ≤4.5 Å,11 → 11,No net change in contact count,Structural
+Interactions,Candidate polar contacts ≤3.5 Å,13 → 9,Reduced by 4 candidate polar contacts,Structural hypothesis
+Physicochemical,Residue chemistry,Asp → Val,Negative/polar carboxylate replaced by neutral/non-polar hydrocarbon side chain,Physicochemical
+Functional,Functional implication,Potential catalytic-microenvironment alteration,Requires experimental and/or dynamic validation,Computational hypothesis

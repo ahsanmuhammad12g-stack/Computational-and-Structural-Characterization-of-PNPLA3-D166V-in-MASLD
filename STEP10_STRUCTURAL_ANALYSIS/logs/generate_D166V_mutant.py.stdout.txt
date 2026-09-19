@@ -1,0 +1,5 @@
+ ExecutiveRMSPairs: RMSD =    0.021 (4 to 4 atoms)
+Selected!
+ Mutagenesis: 2 rotamers loaded.
+ Rotamer 2/2, strain=13.68
+ Rotamer 2/2, strain=13.68

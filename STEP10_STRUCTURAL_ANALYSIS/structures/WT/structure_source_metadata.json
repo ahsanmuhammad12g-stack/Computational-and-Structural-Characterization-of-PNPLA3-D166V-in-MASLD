@@ -1,0 +1,10 @@
+{
+    "UniProt_ID": "Q9NST1",
+    "Protein": "PNPLA3",
+    "Primary_Variant": "D166V",
+    "Position": 166,
+    "Structure_Source": "AlphaFold_DB",
+    "Structure_ID": "Q9NST1-F1",
+    "Structure_File": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP10_STRUCTURAL_ANALYSIS\\structures\\WT\\PNPLA3_Q9NST1_AlphaFold.cif",
+    "Chain": "A"
+}

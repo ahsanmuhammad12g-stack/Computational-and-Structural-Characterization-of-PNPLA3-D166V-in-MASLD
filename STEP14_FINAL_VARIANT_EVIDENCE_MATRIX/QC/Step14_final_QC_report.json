@@ -1,0 +1,174 @@
+{
+    "step": 14,
+    "step_name": "Final Variant Evidence Matrix",
+    "overall_status": "PASS",
+    "project_root": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3",
+    "step9f_rows": 82,
+    "structural_candidates": 9,
+    "primary_variant": "p.Asp166Val",
+    "primary_variation_id": 3308171,
+    "qc_checks": {
+        "Step9F_exists": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\VARIANT ANALYSIS\\annotations\\pnpla3_step9f_final_candidate_selection_FINAL.csv"
+        },
+        "Step10_structural_metrics_exists": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP10_STRUCTURAL_ANALYSIS\\tables\\Table_S10_8_D166V_structural_metrics.csv"
+        },
+        "Step11_structural_summary_exists": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP11_D166V_CATALYTIC_CONTEXT\\tables\\Table_S11_8_D166V_structural_impact_summary.csv"
+        },
+        "Step13_structural_comparison_exists": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP13_COMPARATIVE_STRUCTURAL_ANALYSIS\\tables\\Table_S13_1_all9_structural_comparison.csv"
+        },
+        "Step13_structural_ranking_exists": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP13_COMPARATIVE_STRUCTURAL_ANALYSIS\\tables\\Table_S13_6_final_structural_ranking.csv"
+        },
+        "Step13_mutant_validation_exists": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP13_COMPARATIVE_STRUCTURAL_ANALYSIS\\tables\\Table_S13_7_mutant_validation.csv"
+        },
+        "Step9F_required_columns": {
+            "status": true,
+            "detail": "All required columns present"
+        },
+        "Step9F_expected_rows": {
+            "status": true,
+            "detail": "Expected 82, observed 82"
+        },
+        "Structural_candidate_count": {
+            "status": true,
+            "detail": "Expected 9, observed 9"
+        },
+        "Expected_nine_variants": {
+            "status": true,
+            "detail": "All expected structural candidates present"
+        },
+        "Step13_required_columns": {
+            "status": true,
+            "detail": "All actual Step 13 columns present"
+        },
+        "Step13_expected_variant_count": {
+            "status": true,
+            "detail": "Expected 9, observed 9"
+        },
+        "Step13_all_expected_variants": {
+            "status": true,
+            "detail": "All 9 expected variants present"
+        },
+        "Step13_structural_ranks_complete": {
+            "status": true,
+            "detail": "All 9 structural ranks available"
+        },
+        "Step13_polar_contact_change_consistency": {
+            "status": true,
+            "detail": "Reported and calculated polar-contact changes agree"
+        },
+        "Step13_contact_change_consistency": {
+            "status": true,
+            "detail": "Contact-change calculations are internally consistent"
+        },
+        "Final_matrix_variant_count": {
+            "status": true,
+            "detail": "Expected 82, observed 82"
+        },
+        "Structural_matrix_variant_count": {
+            "status": true,
+            "detail": "Expected 9, observed 9"
+        },
+        "Structural_evidence_complete": {
+            "status": true,
+            "detail": "All 9 structural candidates contain complete Step 13 evidence"
+        },
+        "Primary_D166V_present": {
+            "status": true,
+            "detail": "Exactly one D166V primary candidate found"
+        },
+        "Final_matrix_created": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\tables\\Table_S14_1_final_variant_evidence_matrix.csv"
+        },
+        "Top_candidate_table_created": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\tables\\Table_S14_2_top_candidate_evidence.csv"
+        },
+        "Structural_summary_created": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\tables\\Table_S14_3_structural_comparison_summary.csv"
+        },
+        "Downstream_prioritization_created": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\tables\\Table_S14_4_downstream_candidate_prioritization.csv"
+        },
+        "Figure_1_created": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\figures\\Figure_S14_1_integrated_variant_evidence.png"
+        },
+        "Figure_2_created": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\figures\\Figure_S14_2_computational_vs_structural_priority.png"
+        },
+        "Figure_3_created": {
+            "status": true,
+            "detail": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\figures\\Figure_S14_3_top_candidate_evidence_profile.png"
+        },
+        "Final_matrix_82_rows": {
+            "status": true,
+            "detail": "Expected 82, observed 82"
+        },
+        "Final_matrix_9_structural_candidates": {
+            "status": true,
+            "detail": "Expected 9, observed 9"
+        },
+        "Final_D166V_present": {
+            "status": true,
+            "detail": "D166V present exactly once"
+        },
+        "All_9_structural_impacts_present": {
+            "status": true,
+            "detail": "All 9 structural impact values present"
+        },
+        "All_9_structural_ranks_present": {
+            "status": true,
+            "detail": "All 9 structural ranks present"
+        },
+        "Step13_structural_values_preserved": {
+            "status": true,
+            "detail": "All 9 Step 13 structural-impact values preserved"
+        },
+        "D166V_Global_CA_RMSD": {
+            "status": true,
+            "detail": ""
+        },
+        "D166V_Local_CA_RMSD": {
+            "status": true,
+            "detail": ""
+        },
+        "D166V_WT_polar_contacts": {
+            "status": true,
+            "detail": ""
+        },
+        "D166V_mutant_polar_contacts": {
+            "status": true,
+            "detail": ""
+        },
+        "D166V_structural_impact": {
+            "status": true,
+            "detail": ""
+        }
+    },
+    "outputs": {
+        "table_1": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\tables\\Table_S14_1_final_variant_evidence_matrix.csv",
+        "table_2": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\tables\\Table_S14_2_top_candidate_evidence.csv",
+        "table_3": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\tables\\Table_S14_3_structural_comparison_summary.csv",
+        "table_4": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\tables\\Table_S14_4_downstream_candidate_prioritization.csv",
+        "figure_1": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\figures\\Figure_S14_1_integrated_variant_evidence.png",
+        "figure_2": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\figures\\Figure_S14_2_computational_vs_structural_priority.png",
+        "figure_3": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\figures\\Figure_S14_3_top_candidate_evidence_profile.png",
+        "summary": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX\\Step14_final_summary.txt"
+    }
+}

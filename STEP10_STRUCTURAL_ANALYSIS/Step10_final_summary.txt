@@ -1,0 +1,65 @@
+STEP 10 — PNPLA3 STRUCTURAL ANALYSIS
+======================================================================
+
+Primary candidate: p.Asp166Val (D166V)
+VariationID: 3308171
+UniProt: Q9NST1
+Residue: 166
+
+STRUCTURE
+----------------------------------------------------------------------
+Source: AlphaFold_DB
+Structure ID: AF-Q9NST1-F1
+Chain: A
+Coverage: 100.00%
+Mean pLDDT: 71.70
+Residue 166 pLDDT: 94.88
+
+MUTATION
+----------------------------------------------------------------------
+WT residue 166: ASP (D)
+Mutant residue 166: VAL (V)
+Mutation method: PyMOL mutagenesis wizard
+
+STRUCTURAL COMPARISON
+----------------------------------------------------------------------
+C-alpha RMSD: 0.0010 Å
+Backbone RMSD: 0.0009 Å
+Local C-alpha RMSD: 0.0045 Å
+
+LOCAL ENVIRONMENT
+----------------------------------------------------------------------
+WT local residues: 16
+D166V local residues: 16
+
+CONTACTS
+----------------------------------------------------------------------
+WT contacts: 11
+D166V contacts: 11
+Retained: 11
+Lost: 0
+Gained: 0
+
+POLAR CONTACTS
+----------------------------------------------------------------------
+WT candidate polar contacts: 13
+D166V candidate polar contacts: 9
+
+PHYSICOCHEMICAL CHANGE
+----------------------------------------------------------------------
+Aspartate → Valine
+Negative/polar → Neutral/non-polar
+Carboxylate side chain → Hydrocarbon side chain
+
+QUALITY CONTROL
+----------------------------------------------------------------------
+Overall Step 10 QC: PASS
+
+IMPORTANT INTERPRETATION NOTE
+----------------------------------------------------------------------
+The D166V model is a PyMOL side-chain-remodeled structure.
+It is not an energy-minimized structure or molecular-dynamics result.
+The AlphaFold structure is a predicted structural model.
+Polar contacts are candidate heavy-atom polar contacts rather
+than definitive hydrogen bonds because explicit hydrogens were
+not modeled.

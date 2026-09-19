@@ -1,0 +1,138 @@
+
+===============================================================================
+STEP 17 — FINAL STRUCTURAL REMODELING & POCKET SENSITIVITY
+===============================================================================
+
+Project:
+MASLD–PNPLA3 computational variant prioritization
+
+Mutation:
+Asp166Val (D166V)
+
+Step 16 therapeutic pocket:
+Pocket 1
+
+Step 16 druggability:
+0.851
+
+Step 16 pocket volume:
+602.118 Å³
+
+Step 16 D166 directly lining:
+True
+
+
+------------------------------------------------------------------------------
+STRUCTURAL COMPARISON
+------------------------------------------------------------------------------
+
+Global Cα RMSD:
+0.0010 Å
+
+Local Cα RMSD around residue 166:
+0.0039 Å
+
+Maximum local Cα displacement:
+0.0211 Å
+
+Pocket RMSD:
+0.0039 Å
+
+
+------------------------------------------------------------------------------
+POCKET GEOMETRY
+------------------------------------------------------------------------------
+
+WT pocket radius of gyration:
+7.1058 Å
+
+D166V pocket radius of gyration:
+7.1056 Å
+
+Pocket Rg difference:
+-0.0002 Å
+
+Pocket-center displacement:
+0.0007 Å
+
+
+------------------------------------------------------------------------------
+RESIDUE 166
+------------------------------------------------------------------------------
+
+WT residue:
+ASP166
+
+D166V residue:
+VAL166
+
+Common atom comparison:
+Atom WT_Residue Mutant_Residue  WT_X   WT_Y   WT_Z  Mutant_X  Mutant_Y  Mutant_Z  Absolute_Difference_A
+   N        ASP            VAL 2.939  9.514 -6.611     2.939     9.530    -6.608               0.016279
+  CA        ASP            VAL 2.210  8.920 -5.495     2.195     8.933    -5.502               0.021047
+   C        ASP            VAL 2.174  9.861 -4.285     2.184     9.848    -4.301               0.022913
+   O        ASP            VAL 3.213 10.330 -3.815     3.213    10.330    -3.815               0.000000
+  CB        ASP            VAL 2.815  7.544 -5.152     2.820     7.529    -5.133               0.024719
+
+
+------------------------------------------------------------------------------
+SCIENTIFIC INTERPRETATION
+------------------------------------------------------------------------------
+
+The D166V model shows no appreciable backbone or pocket-level geometric remodeling relative to WT. The modeled structural difference is therefore primarily localized to the Asp166-to-Val166 side-chain and chemical identity change.
+
+
+The residue-level coordinate comparison should be interpreted separately from
+the chemical mutation itself. Asp166 is replaced by Val166, producing a change
+from an acidic, negatively charged side chain to a neutral hydrophobic,
+branched side chain. The absence of substantial backbone displacement does not
+mean that the mutation is chemically insignificant; rather, it indicates that
+the current structural model represents the mutation primarily through local
+side-chain/chemical remodeling rather than backbone rearrangement.
+
+
+------------------------------------------------------------------------------
+IMPORTANT LIMITATION
+------------------------------------------------------------------------------
+
+This analysis is a static structural comparison and structure-derived pocket
+sensitivity assessment.
+
+It is NOT molecular dynamics.
+
+Therefore, this step does not establish:
+- time-dependent conformational dynamics
+- altered binding free energy
+- altered ligand residence time
+- dynamic druggability
+- experimentally observed conformational changes
+
+Those questions belong to the later molecular-dynamics and energetic stages of
+the pipeline.
+
+
+------------------------------------------------------------------------------
+PIPELINE DECISION
+------------------------------------------------------------------------------
+
+Step 16 identified Pocket 1 as the highest-priority therapeutic pocket and
+showed that D166 directly lines this pocket.
+
+Step 17 evaluates whether the available WT and D166V structural models exhibit
+appreciable geometric remodeling.
+
+The interpretation should follow the numerical results above and should not
+be modified to artificially increase the apparent mutation effect.
+
+If the calculated RMSD and local displacement values remain very small, the
+appropriate conclusion is that D166V causes limited static backbone/pocket
+remodeling in the current model, while producing a chemically important
+Asp-to-Val substitution at the pocket-lining catalytic residue.
+
+This result is suitable for proceeding to compound-library and screening
+stages, provided that later docking and molecular-dynamics analyses continue
+to distinguish static structural evidence from dynamic or energetic evidence.
+
+===============================================================================
+END OF STEP 17
+===============================================================================

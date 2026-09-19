@@ -1,0 +1,21 @@
+{
+  "step": "Step 19 \u2014 Drug-Likeness & Chemical Filtering",
+  "timestamp": "2026-09-10T15:33:52.467445",
+  "input_file": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP18_THERAPEUTIC_COMPOUND_LIBRARY\\tables\\STEP18_SCREENING_READY_LIBRARY.csv",
+  "input_compounds": 15,
+  "property_completeness_100_percent": 12,
+  "pass_count": 9,
+  "borderline_count": 1,
+  "fail_count": 2,
+  "incomplete_count": 3,
+  "retained_for_step20": 10,
+  "thresholds": {
+    "MolecularWeight": 500.0,
+    "XLogP": 5.0,
+    "HBondDonorCount": 5,
+    "HBondAcceptorCount": 10,
+    "TPSA": 140.0,
+    "RotatableBondCount": 10
+  },
+  "scientific_note": "Drug-likeness filtering is a physicochemical screening step. Passing compounds are not inferred to bind, inhibit, or modulate PNPLA3."
+}

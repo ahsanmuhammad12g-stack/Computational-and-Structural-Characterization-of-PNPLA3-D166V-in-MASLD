@@ -1,0 +1,175 @@
+{
+    "Step": "Step 15",
+    "Title": "PNPLA3 Therapeutic Target and Mechanistic Site Mapping",
+    "Start_Time": "2026-09-06T07:44:53.439893",
+    "Checks": [
+        {
+            "Check": "Step9F_final_candidate_selection",
+            "Status": "PASS",
+            "Details": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\VARIANT ANALYSIS\\annotations\\pnpla3_step9f_final_candidate_selection_FINAL.csv"
+        },
+        {
+            "Check": "Step10_WT_PDB",
+            "Status": "PASS",
+            "Details": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP10_STRUCTURAL_ANALYSIS\\structures\\WT\\PNPLA3_WT.pdb"
+        },
+        {
+            "Check": "Step10_directory",
+            "Status": "PASS",
+            "Details": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP10_STRUCTURAL_ANALYSIS"
+        },
+        {
+            "Check": "Step11_directory",
+            "Status": "PASS",
+            "Details": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP11_D166V_CATALYTIC_CONTEXT"
+        },
+        {
+            "Check": "Step13_directory",
+            "Status": "PASS",
+            "Details": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP13_COMPARATIVE_STRUCTURAL_ANALYSIS"
+        },
+        {
+            "Check": "Step14_directory",
+            "Status": "PASS",
+            "Details": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP14_FINAL_VARIANT_EVIDENCE_MATRIX"
+        },
+        {
+            "Check": "Step9F required columns",
+            "Status": "PASS",
+            "Details": "11 required columns present"
+        },
+        {
+            "Check": "Step9F UniProt identity",
+            "Status": "PASS",
+            "Details": "Observed UniProt IDs: ['Q9NST1']"
+        },
+        {
+            "Check": "Nine structural candidates",
+            "Status": "PASS",
+            "Details": "Observed: 9"
+        },
+        {
+            "Check": "Structural candidate VariationID uniqueness",
+            "Status": "PASS",
+            "Details": "Each structural candidate VariationID is unique."
+        },
+        {
+            "Check": "Primary D166V identification",
+            "Status": "PASS",
+            "Details": "Matching rows: 1"
+        },
+        {
+            "Check": "WT structure residue count",
+            "Status": "PASS",
+            "Details": "Expected 481; observed 481"
+        },
+        {
+            "Check": "WT residue 166 identity",
+            "Status": "PASS",
+            "Details": "Observed residue 166: ASP"
+        },
+        {
+            "Check": "Residue SASA calculation",
+            "Status": "PASS",
+            "Details": "Residues with SASA: 481"
+        },
+        {
+            "Check": "Catalytic residues mapped",
+            "Status": "PASS",
+            "Details": "Mapped residues: 2"
+        },
+        {
+            "Check": "All nine structural candidates structurally mapped",
+            "Status": "PASS",
+            "Details": "Mapped: 9 / 9"
+        },
+        {
+            "Check": "Unique-position spatial cluster table",
+            "Status": "PASS",
+            "Details": "8 unique positions for 8 unique candidate positions"
+        },
+        {
+            "Check": "Duplicate-safe candidate mapping merge",
+            "Status": "PASS",
+            "Details": "Rows after merge: 9 / 9"
+        },
+        {
+            "Check": "Final functional architecture table",
+            "Status": "PASS",
+            "Details": ""
+        },
+        {
+            "Check": "Catalytic/mechanistic table",
+            "Status": "PASS",
+            "Details": ""
+        },
+        {
+            "Check": "D166V neighborhood table",
+            "Status": "PASS",
+            "Details": ""
+        },
+        {
+            "Check": "Nine-candidate mapping table",
+            "Status": "PASS",
+            "Details": "9 candidates mapped"
+        },
+        {
+            "Check": "Candidate VariationID uniqueness after mapping",
+            "Status": "PASS",
+            "Details": ""
+        },
+        {
+            "Check": "Unique candidate-position clustering",
+            "Status": "PASS",
+            "Details": ""
+        },
+        {
+            "Check": "Therapeutic-region prioritization",
+            "Status": "PASS",
+            "Details": "4 candidate regions"
+        },
+        {
+            "Check": "D166V present in therapeutic mapping",
+            "Status": "PASS",
+            "Details": ""
+        },
+        {
+            "Check": "Figure_S15_1_PNPLA3_functional_architecture.png",
+            "Status": "PASS",
+            "Details": ""
+        },
+        {
+            "Check": "Figure_S15_2_D166V_mechanistic_neighborhood.png",
+            "Status": "PASS",
+            "Details": ""
+        },
+        {
+            "Check": "Figure_S15_3_therapeutic_region_prioritization.png",
+            "Status": "PASS",
+            "Details": ""
+        },
+        {
+            "Check": "Figure_S15_4_variant_D166_spatial_relationship.png",
+            "Status": "PASS",
+            "Details": ""
+        },
+        {
+            "Check": "Figure_S15_5_candidate_residue_accessibility.png",
+            "Status": "PASS",
+            "Details": ""
+        }
+    ],
+    "Warnings": [
+        "Multiple variants share a protein position. Spatial clustering will therefore be calculated at unique-position level and merged safely."
+    ],
+    "Errors": [],
+    "End_Time": "2026-09-06T07:45:14.976952",
+    "Summary": {
+        "Total_QC_Checks": 31,
+        "Passed": 31,
+        "Failed": 0,
+        "Warnings": 1,
+        "Errors": 0,
+        "Final_Status": "PASS"
+    }
+}

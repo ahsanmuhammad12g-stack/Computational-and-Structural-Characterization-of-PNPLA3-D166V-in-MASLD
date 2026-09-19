@@ -1,0 +1,138 @@
+{
+    "step": "Step 12",
+    "step_name": "Integrated Structural + Computational/Functional Interpretation",
+    "primary_variant": "p.Asp166Val",
+    "variation_id": 3308171,
+    "overall_status": "PASS",
+    "failed_checks": [],
+    "checks": {
+        "Step9F_exists": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\VARIANT ANALYSIS\\annotations\\pnpla3_step9f_final_candidate_selection_FINAL.csv"
+        },
+        "Step10_tables_directory_exists": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP10_STRUCTURAL_ANALYSIS\\tables"
+        },
+        "Step11_tables_directory_exists": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP11_D166V_CATALYTIC_CONTEXT\\tables"
+        },
+        "Step9F_required_columns": {
+            "status": "PASS",
+            "message": "All required columns present"
+        },
+        "Step9F_expected_rows": {
+            "status": "PASS",
+            "message": "Expected 82, observed 82"
+        },
+        "Primary_candidate_count": {
+            "status": "PASS",
+            "message": "Expected 1, observed 1"
+        },
+        "Primary_VariationID": {
+            "status": "PASS",
+            "message": "Observed 3308171"
+        },
+        "Primary_Protein_Change": {
+            "status": "PASS",
+            "message": "Observed p.Asp166Val"
+        },
+        "Primary_Protein_Position": {
+            "status": "PASS",
+            "message": "Observed 166"
+        },
+        "Step10_structural_metrics_exists": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP10_STRUCTURAL_ANALYSIS\\tables\\Table_S10_8_D166V_structural_metrics.csv"
+        },
+        "Step10_distance_table_exists": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP10_STRUCTURAL_ANALYSIS\\tables\\Table_S10_9_local_distance_comparison.csv"
+        },
+        "Step10_pLDDT_table_exists": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP10_STRUCTURAL_ANALYSIS\\tables\\Table_S10_10_local_pLDDT.csv"
+        },
+        "Step11_catalytic_context_exists": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP11_D166V_CATALYTIC_CONTEXT\\tables\\Table_S11_1_D166V_catalytic_context.csv"
+        },
+        "Step11_distance_changes_exists": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP11_D166V_CATALYTIC_CONTEXT\\tables\\Table_S11_3_residue_distance_changes.csv"
+        },
+        "Step11_polar_summary_exists": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP11_D166V_CATALYTIC_CONTEXT\\tables\\Table_S11_7_candidate_polar_contact_summary.csv"
+        },
+        "Reference_AA_is_Asp": {
+            "status": "PASS",
+            "message": "Asp"
+        },
+        "Alternate_AA_is_Val": {
+            "status": "PASS",
+            "message": "Val"
+        },
+        "Catalytic_position_166": {
+            "status": "PASS",
+            "message": "Asp166/Val166"
+        },
+        "Ser47_distance_increased": {
+            "status": "PASS",
+            "message": "0.892393 \u00c5"
+        },
+        "Polar_contacts_reduced": {
+            "status": "PASS",
+            "message": "13 \u2192 9"
+        },
+        "Heavy_atom_contacts_retained": {
+            "status": "PASS",
+            "message": "11 retained"
+        },
+        "No_contacts_lost": {
+            "status": "PASS",
+            "message": "0 lost"
+        },
+        "No_contacts_gained": {
+            "status": "PASS",
+            "message": "0 gained"
+        },
+        "Residue_166_high_confidence": {
+            "status": "PASS",
+            "message": "pLDDT = 94.88"
+        },
+        "Table_S12_1_created": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP12_INTEGRATED_INTERPRETATION\\tables\\Table_S12_1_integrated_evidence.csv"
+        },
+        "Table_S12_2_created": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP12_INTEGRATED_INTERPRETATION\\tables\\Table_S12_2_computational_evidence.csv"
+        },
+        "Table_S12_3_created": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP12_INTEGRATED_INTERPRETATION\\tables\\Table_S12_3_structural_evidence.csv"
+        },
+        "Table_S12_4_created": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP12_INTEGRATED_INTERPRETATION\\tables\\Table_S12_4_functional_interpretation.csv"
+        },
+        "Figure_S12_1_created": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP12_INTEGRATED_INTERPRETATION\\figures\\Figure_S12_1_integrated_evidence_profile.png"
+        },
+        "Figure_S12_2_created": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP12_INTEGRATED_INTERPRETATION\\figures\\Figure_S12_2_structural_impact_summary.png"
+        },
+        "Figure_S12_3_created": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP12_INTEGRATED_INTERPRETATION\\figures\\Figure_S12_3_D166V_mechanistic_evidence.png"
+        },
+        "Step12_summary_created": {
+            "status": "PASS",
+            "message": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP12_INTEGRATED_INTERPRETATION\\Step12_final_summary.txt"
+        }
+    }
+}

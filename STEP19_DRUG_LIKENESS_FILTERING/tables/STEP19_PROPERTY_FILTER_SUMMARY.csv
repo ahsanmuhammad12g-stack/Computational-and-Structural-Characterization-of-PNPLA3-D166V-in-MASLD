@@ -1,0 +1,7 @@
+Property,Threshold,Available,Passed,Failed
+MW,500.0,15,10,5
+XLogP,5.0,12,11,4
+HBD,5.0,15,12,3
+HBA,10.0,15,10,5
+TPSA,140.0,15,10,5
+RotatableBonds,10.0,15,11,4

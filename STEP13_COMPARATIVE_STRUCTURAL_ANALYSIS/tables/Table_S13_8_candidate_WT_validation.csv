@@ -1,0 +1,10 @@
+VariationID,Protein_Change,Protein_Position,Expected_WT,Observed_WT,Expected_Mutant,WT_Validation
+3308171,p.Asp166Val,166,D,D,V,True
+3421686,p.Gly49Trp,49,G,G,W,True
+902366,p.Cys28Arg,28,C,C,R,True
+2205093,p.Pro186Ser,186,P,P,S,True
+899625,p.Pro186His,186,P,P,H,True
+2619470,p.Leu51Ser,51,L,L,S,True
+3308170,p.Tyr21Cys,21,Y,Y,C,True
+3421694,p.Arg247Thr,247,R,R,T,True
+3935294,p.Leu142Phe,142,L,L,F,True
