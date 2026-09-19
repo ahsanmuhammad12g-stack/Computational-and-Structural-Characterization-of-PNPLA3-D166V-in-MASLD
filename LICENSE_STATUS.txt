@@ -1,6 +1,11 @@
 # License Status
 
-No open-source license has been automatically assigned.
+## License
 
-Before public release, the author should select an appropriate license
-if reuse of the repository is intended.
+The source code and scripts in this repository are released under the MIT License.
+
+Unless otherwise stated, the figures, tables, datasets, processed results, structural models, and other research materials are **not covered by the MIT License** and remain the intellectual property of the authors. Reuse or redistribution of these materials should not be assumed to be permitted solely on the basis of the software license.
+
+Third-party datasets, software, databases, and other external materials remain subject to their respective licenses and terms of use.
+
+For citation and the definitive version of this research repository, please refer to the associated publication and Zenodo DOI when available.
