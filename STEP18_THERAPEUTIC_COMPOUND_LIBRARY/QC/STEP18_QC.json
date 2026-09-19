@@ -1,0 +1,59 @@
+{
+  "Step": 18,
+  "Step_Name": "Therapeutic Compound Library",
+  "Status": "PASS",
+  "Inputs": {
+    "Step16_Pocket_Table": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP16_WT_vs_D166V_POCKET_DISCOVERY\\tables\\Table_16_04_D166V_Pocket_Prioritization.csv",
+    "Step17_Interpretation": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP17_FINAL_STRUCTURAL_REMODELING\\STEP17_FINAL_INTERPRETATION.txt"
+  },
+  "Pocket_Context": {
+    "D166V_Pocket_ID": "1",
+    "WT_Pocket_ID": "1",
+    "Match_Status": "Matched",
+    "Druggability": 0.851,
+    "Volume_A3": 602.118,
+    "D166_Distance_A": 9.456776066833462e-08,
+    "D166_Directly_Lining": true,
+    "Prioritization_Score": 0.7756874981086447
+  },
+  "Search": {
+    "Number_of_Search_Terms": 7,
+    "Raw_Search_Hits": 15,
+    "Unique_PubChem_CIDs": 15
+  },
+  "Property_Retrieval": {
+    "Successful": 15,
+    "Failed": 0,
+    "Successful_CIDs": [
+      374536,
+      46829239,
+      56593118,
+      57861407,
+      58462682,
+      71236597,
+      89084603,
+      117902000,
+      154642729,
+      171523990,
+      171524039,
+      172966180,
+      178421509,
+      178421512,
+      178421513
+    ],
+    "Failed_CIDs": []
+  },
+  "Structure_QC": {
+    "Final_Unique_Compounds": 15,
+    "Structure_QC_Pass": 15,
+    "Structure_QC_Fail": 0
+  },
+  "Scientific_Limitations": [
+    "PubChem search-category membership is not equivalent to target activity.",
+    "Step 18 does not establish PNPLA3 binding.",
+    "Step 18 does not establish PNPLA3 inhibition.",
+    "Step 18 does not establish therapeutic efficacy.",
+    "Step 18 does not establish D166V-specific activity.",
+    "Docking and downstream structural analyses are required."
+  ]
+}

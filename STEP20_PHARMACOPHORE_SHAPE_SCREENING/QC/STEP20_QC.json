@@ -1,0 +1,26 @@
+{
+  "step": "Step 20 \u2014 Pharmacophore / Shape Screening",
+  "timestamp": "2026-09-10T15:47:56.137999",
+  "input_library": "C:\\Users\\Asif Computer\\Documents\\Bioinformatics projects\\MASLD_PNPLA3\\RESULTS\\STEP19_DRUG_LIKENESS_FILTERING\\tables\\STEP19_SCREENING_READY_LIBRARY.csv",
+  "input_compounds": 10,
+  "valid_3D_conformer_compounds": 10,
+  "conformer_failures": 0,
+  "screened_compounds": 10,
+  "high_compatibility": 8,
+  "moderate_compatibility": 2,
+  "low_compatibility": 0,
+  "no_clear_compatibility": 0,
+  "pocket_id": 1,
+  "pocket_volume_A3": 602.118,
+  "pocket_druggability": 0.851,
+  "pocket_definition": "Residues within 10 \u00c5 of D166V residue 166 C-alpha, consistent with Step 17 structural analysis.",
+  "n_conformers_requested": 20,
+  "scientific_limitations": [
+    "No docking was performed.",
+    "No binding affinity was calculated.",
+    "No PNPLA3 inhibition was inferred.",
+    "No D166V selectivity was inferred.",
+    "Pocket pharmacophore features are structure-derived chemical environment descriptors.",
+    "Shape compatibility is a coarse molecular-size compatibility measure before docking."
+  ]
+}

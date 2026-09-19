@@ -1,0 +1,7 @@
+Evidence_ID,Descriptor,WT_Value,D166V_Value,Delta,Interpretation,Evidence_Strength
+ORTHO-01,Residue solvent accessibility,10.626484274657276,13.208433612936584,2.5819493382793084,Change in residue exposure,Supportive
+ORTHO-02,Residue volume,111.1,140.0,28.900000000000006,Smaller side-chain volume in Val than Asp,High
+ORTHO-03,Heavy-atom contact density,68,56,-12.0,Independent local packing/contact remodeling,High
+ORTHO-04,Polar-contact network,17,11,-6.0,Change in local polar interaction capability,High
+ORTHO-05,Independent backbone RMSD,0.0,0.0009585348494844085,0.0009585348494844085,Tests whether mutation causes global backbone disruption,Control
+ORTHO-06,Residue-level contact remodeling,1 lost,0 gained,-1.0,Independent reproduction of local network remodeling,High

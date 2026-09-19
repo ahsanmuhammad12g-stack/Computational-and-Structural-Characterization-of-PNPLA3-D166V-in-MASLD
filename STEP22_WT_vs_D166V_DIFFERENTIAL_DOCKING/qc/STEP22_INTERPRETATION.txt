@@ -1,0 +1,33 @@
+STEP 22 — WT vs D166V DIFFERENTIAL DOCKING
+
+Docking engine: AutoDock Vina 1.2.5
+Target pocket: Pocket 1
+Common docking box: 20 × 20 × 20 Å
+Exhaustiveness: 16
+Number of modes: 10
+Energy range: 4.0
+Seed: 20260910
+
+Input compounds: 10
+Successful WT dockings: 10
+Failed WT dockings: 0
+
+Differential definition:
+Delta_Vina = D166V score − WT score
+
+D166V-preferred score differences: 0
+WT-preferred score differences: 1
+Similar score differences: 9
+
+Largest D166V score preference:
+CID: 71236597
+D166V score: -10.262 kcal/mol
+WT score: -9.296 kcal/mol
+Delta Vina: -0.966 kcal/mol
+
+Scientific interpretation:
+Compounds with negative Delta Vina values receive a more favorable Vina score in the D166V receptor under the same docking protocol.
+This comparison is intended to identify compounds whose computed docking behavior changes between WT and D166V.
+
+Important limitation:
+Differential docking does not by itself demonstrate mutation-specific experimental binding or therapeutic selectivity. Structural interaction analysis is required for mechanistic interpretation.

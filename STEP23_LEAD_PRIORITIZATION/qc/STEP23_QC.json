@@ -1,0 +1,32 @@
+{
+  "step": 23,
+  "inputs": {
+    "step19": "/mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP19_DRUG_LIKENESS_FILTERING/tables/STEP19_MASTER_DRUG_LIKENESS_TABLE.csv",
+    "step20": "/mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP20_PHARMACOPHORE_SHAPE_SCREENING/tables/STEP20_PHARMACOPHORE_SHAPE_SCREENING.csv",
+    "step21": "/mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP21_VIRTUAL_SCREENING_DOCKING/tables/STEP21_BEST_DOCKING_RESULTS.csv",
+    "step22": "/mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP22_WT_vs_D166V_DIFFERENTIAL_DOCKING/tables/STEP22_WT_vs_D166V_DIFFERENTIAL_DOCKING.csv"
+  },
+  "row_counts": {
+    "step19": 15,
+    "step20": 10,
+    "step21": 10,
+    "step22": 10,
+    "integrated": 10
+  },
+  "lead_classes": {
+    "TOP_LEAD": 1,
+    "PRIORITY_LEAD": 5,
+    "SECONDARY": 4
+  },
+  "docking_consistency": {
+    "consistent": 10,
+    "total": 10
+  },
+  "weights": {
+    "docking": 0.4,
+    "step20_screening": 0.25,
+    "mutation_preference": 0.15,
+    "drug_likeness": 0.2
+  },
+  "scientific_caution": "Step 23 generates a computational lead-priority ranking. The resulting score does not establish experimental binding affinity, inhibitory activity, selectivity, or efficacy."
+}

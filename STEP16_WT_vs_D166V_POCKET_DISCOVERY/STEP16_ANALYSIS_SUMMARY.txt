@@ -1,0 +1,16 @@
+==============================================================================
+STEP 16 — WT vs D166V POCKET DISCOVERY
+==============================================================================
+
+UniProt ID: Q9NST1
+Primary variant: p.Asp166Val
+Primary position: 166
+
+WT pockets analyzed: 35
+D166V pockets analyzed: 35
+Matched pockets: 35
+WT-specific pockets: 0
+D166V-specific pockets: 0
+
+Important interpretation note:
+fpocket scores, pocket descriptors, and the prioritization score are computational descriptors. They do not constitute experimental evidence of ligand binding, therapeutic activity, or mutation causality.

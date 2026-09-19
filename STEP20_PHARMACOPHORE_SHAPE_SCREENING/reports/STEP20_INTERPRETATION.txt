@@ -1,0 +1,55 @@
+STEP 20 — PHARMACOPHORE / SHAPE SCREENING
+======================================================================
+
+Input compounds: 10
+Compounds with valid 3D conformers: 10
+Compounds screened: 10
+
+Validated structural target:
+  D166V Pocket ID: 1
+  Pocket volume: 602.118 Å³
+  Pocket druggability: 0.851
+  D166-centered radius: 10.0 Å
+
+STEP 20 CLASSIFICATION
+----------------------------------------------------------------------
+High compatibility: 8
+Moderate compatibility: 2
+Low compatibility: 0
+No clear compatibility: 0
+
+TOP COMPOUNDS
+----------------------------------------------------------------------
+Rank  1 | CID 56593118 | HIGH_COMPATIBILITY | Score 60.00 | Features 12/28 | Shape Compatible
+Rank  2 | CID 117902000 | HIGH_COMPATIBILITY | Score 56.67 | Features 8/21 | Shape Compatible
+Rank  3 | CID 374536 | HIGH_COMPATIBILITY | Score 54.71 | Features 6/17 | Shape Compatible
+Rank  4 | CID 89084603 | HIGH_COMPATIBILITY | Score 54.35 | Features 8/23 | Shape Compatible
+Rank  5 | CID 171523990 | HIGH_COMPATIBILITY | Score 53.33 | Features 5/15 | Shape Compatible
+Rank  6 | CID 171524039 | HIGH_COMPATIBILITY | Score 53.33 | Features 5/15 | Shape Compatible
+Rank  7 | CID 71236597 | HIGH_COMPATIBILITY | Score 50.59 | Features 5/17 | Shape Compatible
+Rank  8 | CID 57861407 | HIGH_COMPATIBILITY | Score 50.00 | Features 6/21 | Shape Compatible
+Rank  9 | CID 46829239 | MODERATE_COMPATIBILITY | Score 50.00 | Features 2/7 | Shape Compatible
+Rank 10 | CID 154642729 | MODERATE_COMPATIBILITY | Score 49.74 | Features 7/21 | Shape Large
+
+SCIENTIFIC INTERPRETATION
+----------------------------------------------------------------------
+Step 20 provides a pre-docking prioritization of the Step 19
+chemically filtered compounds according to compatibility with
+the chemical environment of the validated D166V Pocket 1.
+
+The pharmacophore component evaluates whether ligand chemical
+features can geometrically correspond to donor, acceptor,
+aromatic, and hydrophobic environments identified from the
+actual D166V pocket structure.
+
+The shape component is deliberately coarse because no docked
+ligand pose exists at this stage. It therefore evaluates relative
+molecular-size compatibility with the experimentally modeled
+Pocket 1 volume rather than claiming true protein-ligand shape
+complementarity.
+
+The Step 20 score must NOT be interpreted as binding affinity,
+binding free energy, inhibitory potency, or D166V selectivity.
+
+Step 21 should proceed to structure-based virtual screening
+using the compounds prioritized by Step 20.

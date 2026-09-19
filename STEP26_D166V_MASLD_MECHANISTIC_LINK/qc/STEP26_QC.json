@@ -1,0 +1,17 @@
+{
+  "Step": 26,
+  "Variant": "D166V",
+  "WT_structure_exists": true,
+  "D166V_structure_exists": true,
+  "WT_residue_166": "ASP",
+  "D166V_residue_166": "VAL",
+  "WT_protein_length": 481,
+  "D166V_protein_length": 481,
+  "Step25_contact_table_available": true,
+  "Step25_environment_table_available": true,
+  "Step16_pocket_available": true,
+  "Step21_docking_available": true,
+  "Step22_differential_docking_available": true,
+  "Step23_lead_data_available": true,
+  "Status": "PASS"
+}

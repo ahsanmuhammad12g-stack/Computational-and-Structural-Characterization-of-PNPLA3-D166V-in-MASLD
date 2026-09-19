@@ -1,0 +1,15 @@
+{
+  "Step": 27,
+  "Variant": "D166V",
+  "WT_structure_exists": true,
+  "D166V_structure_exists": true,
+  "WT_length": 481,
+  "D166V_length": 481,
+  "WT_residue_166": "ASP",
+  "D166V_residue_166": "VAL",
+  "Common_Calpha_residues": 481,
+  "Independent_global_Calpha_RMSD_A": 0.0009585348494844085,
+  "Lost_contacting_residues": 1,
+  "Gained_contacting_residues": 0,
+  "Status": "PASS"
+}

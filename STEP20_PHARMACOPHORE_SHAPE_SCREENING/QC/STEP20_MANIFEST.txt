@@ -1,0 +1,25 @@
+STEP 20 — PHARMACOPHORE / SHAPE SCREENING
+==========================================
+
+Completed: 2026-09-10T15:47:56.142260
+
+INPUTS
+- Step 19 library: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP19_DRUG_LIKENESS_FILTERING\tables\STEP19_SCREENING_READY_LIBRARY.csv
+- Step 16 pocket table: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP16_WT_vs_D166V_POCKET_DISCOVERY\tables\Table_16_04_D166V_Pocket_Prioritization.csv
+- D166V structure: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP10_STRUCTURAL_ANALYSIS\structures\D166V\PNPLA3_D166V_mutant.pdb
+
+OUTPUTS
+- Screening table: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP20_PHARMACOPHORE_SHAPE_SCREENING\tables\STEP20_PHARMACOPHORE_SHAPE_SCREENING.csv
+- Pocket features: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP20_PHARMACOPHORE_SHAPE_SCREENING\tables\STEP20_POCKET_PHARMACOPHORE_FEATURES.csv
+- Pocket summary: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP20_PHARMACOPHORE_SHAPE_SCREENING\tables\STEP20_POCKET_SUMMARY.csv
+- Class summary: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP20_PHARMACOPHORE_SHAPE_SCREENING\tables\STEP20_CLASS_SUMMARY.csv
+- Figure 1: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP20_PHARMACOPHORE_SHAPE_SCREENING\figures\Figure_20_01_Compound_Screening_Scores.png
+- Figure 2: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP20_PHARMACOPHORE_SHAPE_SCREENING\figures\Figure_20_02_Pharmacophore_Matching.png
+- Figure 3: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP20_PHARMACOPHORE_SHAPE_SCREENING\figures\Figure_20_03_Pocket_Chemical_Feature_Map.png
+- QC: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP20_PHARMACOPHORE_SHAPE_SCREENING\QC\STEP20_QC.json
+- Report: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP20_PHARMACOPHORE_SHAPE_SCREENING\reports\STEP20_INTERPRETATION.txt
+
+SCIENTIFIC LIMITATION
+Step 20 is a pre-docking pharmacophore/shape prioritization.
+It does not establish binding, inhibition, affinity, or mutation
+selectivity.

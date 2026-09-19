@@ -1,0 +1,17 @@
+Project root: /mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3
+Step 19 input: /mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP19_DRUG_LIKENESS_FILTERING/tables/STEP19_SCREENING_READY_LIBRARY.csv
+Step 16 input: /mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP16_WT_vs_D166V_POCKET_DISCOVERY/tables/Table_16_04_D166V_Pocket_Prioritization.csv
+Step 21 input: /mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP21_VIRTUAL_SCREENING_DOCKING/tables/STEP21_BEST_DOCKING_RESULTS.csv
+WT receptor: /mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP10_STRUCTURAL_ANALYSIS/structures/WT/PNPLA3_WT.pdb
+D166V receptor: /mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP10_STRUCTURAL_ANALYSIS/structures/D166V/PNPLA3_D166V_mutant.pdb
+Vina executable: /usr/bin/vina
+Vina version: 1.2.5
+Pocket ID: 1
+Target residue: A:166
+Common box center: (2.195, 8.933, -5.502)
+Box size: (20.0, 20.0, 20.0)
+Exhaustiveness: 16
+Number of modes: 10
+Energy range: 4.0
+Seed: 20260910
+Delta_Vina = D166V - WT

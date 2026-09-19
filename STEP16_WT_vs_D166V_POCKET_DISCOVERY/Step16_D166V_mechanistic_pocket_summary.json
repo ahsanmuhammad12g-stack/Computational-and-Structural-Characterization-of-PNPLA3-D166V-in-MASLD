@@ -1,0 +1,25 @@
+{
+  "Primary_Variant": "p.Asp166Val",
+  "Primary_Position": 166,
+  "Primary_VariationID": 3308171,
+  "Top_D166V_Pocket_ID": 1,
+  "Top_WT_Pocket_ID": 1,
+  "Therapeutic_Pocket_Score": NaN,
+  "D166V_Druggability": NaN,
+  "D166V_Pocket_Score": NaN,
+  "D166V_Volume_A3": NaN,
+  "D166V_D166_Distance_A": 9.456776066833462e-08,
+  "Mutation_Proximal": true,
+  "Mutation_Sensitivity_Score": NaN,
+  "Remodeling_Category": "Conserved-like",
+  "Therapeutic_Interpretation": "Lower-priority pocket",
+  "D166_Directly_Lining_Pocket": true,
+  "Scoring_Weights": {
+    "Druggability": 0.3,
+    "Pocket_Score": 0.15,
+    "Volume": 0.1,
+    "D166_Proximity": 0.2,
+    "Mutation_Sensitivity": 0.25
+  },
+  "Important_Caveat": "fpocket pocket scores and druggability are computational descriptors and do not constitute experimental validation of a ligand-binding site."
+}

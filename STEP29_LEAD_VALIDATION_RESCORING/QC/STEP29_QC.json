@@ -1,0 +1,18 @@
+{
+  "Step": 29,
+  "Step22_loaded": true,
+  "Step23_loaded": true,
+  "Step28_loaded": true,
+  "Step24_interaction_data_available": false,
+  "Compounds_analyzed": 10,
+  "Top_CID": "71236597",
+  "Top_Step29_Validation_Score": 0.5,
+  "Top_D166V_minus_WT_kcal_mol": -0.9660000000000012,
+  "Top_Interaction_Jaccard": 0.0,
+  "Robust_mutation_consistent_count": 0,
+  "Mutation_consistent_count": 1,
+  "Interaction_consistent_count": 0,
+  "WT_preferred_count": 1,
+  "Limited_validation_count": 8,
+  "Status": "PASS"
+}

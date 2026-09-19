@@ -1,0 +1,14 @@
+Target,Target_Atom,Neighbor,Neighbor_Atom,Distance_A,Candidate_Interaction
+ASP166,OD2,SER47,OG,2.6687484660904937,Target acceptor / neighbor donor
+ASP166,O,THR119,OG1,3.0484069091832633,Target acceptor / neighbor donor
+ASP166,N,CYS144,O,3.276153330542045,Target donor / neighbor acceptor
+ASP166,OD1,SER145,O,3.172234212828868,Target acceptor / neighbor donor
+ASP166,OD2,SER145,O,3.230365484122027,Target acceptor / neighbor donor
+ASP166,N,PHE147,O,2.8319966389944846,Target donor / neighbor acceptor
+ASP166,N,VAL165,O,2.2694942703981615,Target donor / neighbor acceptor
+ASP166,O,VAL165,O,3.277180640607396,Target acceptor / neighbor donor
+ASP166,O,GLY167,N,2.2598526920074447,Target acceptor / neighbor donor
+ASP166,OD1,GLY167,N,2.973475132946466,Target acceptor / neighbor donor
+ASP166,O,GLY168,N,3.1381333589614075,Target acceptor / neighbor donor
+ASP166,OD1,GLY168,N,2.771570488516688,Target acceptor / neighbor donor
+ASP166,O,VAL169,N,3.0230886100233816,Target acceptor / neighbor donor

@@ -1,0 +1,15 @@
+STEP 24 — INTERACTION FINGERPRINTING
+
+Top leads requested: 4
+Top leads processed: 4
+
+Purpose:
+Extract distance-based protein-ligand contacts from the
+actual WT and D166V docking poses and compare the interacting
+residue fingerprints.
+
+Important limitation:
+These interaction categories come from rigid docking poses.
+They are computational contact candidates and are not proof
+of experimental hydrogen bonding, binding affinity, inhibition,
+selectivity, or therapeutic activity.

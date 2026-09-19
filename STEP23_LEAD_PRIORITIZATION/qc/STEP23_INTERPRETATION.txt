@@ -1,0 +1,29 @@
+STEP 23 — LEAD PRIORITIZATION
+
+Integrated compounds: 10
+
+Evidence weighting:
+Docking = 40%
+Step 20 combined screening score = 25%
+D166V-vs-WT docking preference = 15%
+Drug-likeness = 20%
+
+Top five computationally prioritized compounds:
+Rank 1: CID 71236597 | Priority 71.35% | D166V -10.262 kcal/mol | WT -9.296 kcal/mol | Delta -0.966 kcal/mol | TOP_LEAD
+Rank 2: CID 56593118 | Priority 68.26% | D166V -7.134 kcal/mol | WT -7.204 kcal/mol | Delta 0.070 kcal/mol | PRIORITY_LEAD
+Rank 3: CID 117902000 | Priority 63.52% | D166V -7.175 kcal/mol | WT -6.784 kcal/mol | Delta -0.391 kcal/mol | PRIORITY_LEAD
+Rank 4: CID 171523990 | Priority 63.46% | D166V -8.432 kcal/mol | WT -8.311 kcal/mol | Delta -0.121 kcal/mol | PRIORITY_LEAD
+Rank 5: CID 171524039 | Priority 61.54% | D166V -8.277 kcal/mol | WT -8.371 kcal/mol | Delta 0.094 kcal/mol | PRIORITY_LEAD
+
+Scientific interpretation:
+Step 23 integrates the existing computational evidence
+to prioritize compounds for downstream interaction analysis
+and molecular dynamics.
+
+The integrated score is a ranking metric only.
+It does not establish experimental binding affinity,
+inhibitory activity, selectivity, or therapeutic efficacy.
+
+The D166V-versus-WT docking component is treated as
+comparative supporting evidence rather than proof
+of mutation-specific pharmacological activity.

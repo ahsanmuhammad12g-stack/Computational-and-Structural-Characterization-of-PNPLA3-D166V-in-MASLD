@@ -1,0 +1,10 @@
+Target,Target_Atom,Neighbor,Neighbor_Atom,Distance_A,Candidate_Interaction
+VAL166,O,THR119,OG1,3.0484069091832633,Target donor / neighbor acceptor
+VAL166,N,CYS144,O,3.2780830669462473,Target donor / neighbor acceptor
+VAL166,N,PHE147,O,2.8443551321551417,Target donor / neighbor acceptor
+VAL166,N,VAL165,O,2.2550942457885275,Target donor / neighbor acceptor
+VAL166,O,VAL165,O,3.277180640607396,Target donor / neighbor acceptor
+VAL166,N,GLY167,N,3.4961880791331996,Target donor / neighbor acceptor
+VAL166,O,GLY167,N,2.2598526920074447,Target donor / neighbor acceptor
+VAL166,O,GLY168,N,3.1381333589614075,Target donor / neighbor acceptor
+VAL166,O,VAL169,N,3.0230886100233816,Target donor / neighbor acceptor

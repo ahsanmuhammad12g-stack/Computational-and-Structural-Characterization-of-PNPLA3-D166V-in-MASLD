@@ -1,0 +1,27 @@
+{
+  "Step": 25,
+  "Variant": "D166V",
+  "WT_structure_exists": true,
+  "D166V_structure_exists": true,
+  "WT_residue_166": "ASP",
+  "D166V_residue_166": "VAL",
+  "WT_protein_residue_count": 481,
+  "D166V_protein_residue_count": 481,
+  "Expected_protein_residue_count": 481,
+  "Common_CA_count": 481,
+  "WT_local_residue_count": 40,
+  "D166V_local_residue_count": 38,
+  "WT_contact_count": 68,
+  "D166V_contact_count": 56,
+  "Gained_contact_count": 8,
+  "Lost_contact_count": 20,
+  "Global_CA_RMSD_A": 0.0009596762056680729,
+  "Local_CA_RMSD_A": 0.003287042632148201,
+  "Target_sidechain_center_displacement_A": 1.1668768663950733,
+  "Figure_generation": {
+    "Figure_25_01_Local_Environment_Distance.png": true,
+    "Figure_25_02_Contact_Remodeling.png": true,
+    "Figure_25_03_D166V_Physicochemical_Change.png": true
+  },
+  "status": "PASS"
+}

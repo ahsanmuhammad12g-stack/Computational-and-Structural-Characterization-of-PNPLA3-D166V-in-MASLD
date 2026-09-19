@@ -1,0 +1,30 @@
+STEP 18 — REPRODUCIBILITY MANIFEST
+==============================================================================
+
+Project root: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3
+Step 16 input: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP16_WT_vs_D166V_POCKET_DISCOVERY\tables\Table_16_04_D166V_Pocket_Prioritization.csv
+Step 17 input: C:\Users\Asif Computer\Documents\Bioinformatics projects\MASLD_PNPLA3\RESULTS\STEP17_FINAL_STRUCTURAL_REMODELING\STEP17_FINAL_INTERPRETATION.txt
+
+PubChem search terms:
+  [PNPLA3_specific] PNPLA3
+  [PNPLA3_specific] PNPLA3 inhibitor
+  [PNPLA3_specific] PNPLA3 small molecule
+  [enzyme_context] patatin phospholipase inhibitor
+  [lipid_metabolism] lipid droplet lipase inhibitor
+  [hepatic_metabolism] hepatic lipid metabolism small molecule
+  [MASLD_context] MASLD small molecule
+
+Maximum CIDs per term: 100
+PubChem property retrieval: one CID per request
+Charge field mapped to project field FormalCharge
+Deduplication key: InChIKey
+Structure QC requirements:
+  - MolecularFormula
+  - CanonicalSMILES
+  - InChIKey
+
+Final library size: 15
+Structure-QC passing: 15
+
+Scientific note:
+Search retrieval is not evidence of biochemical activity or therapeutic efficacy.

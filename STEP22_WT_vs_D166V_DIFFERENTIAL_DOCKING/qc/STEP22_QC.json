@@ -1,0 +1,42 @@
+{
+  "step": 22,
+  "status": "PASS",
+  "vina_executable": "/usr/bin/vina",
+  "vina_version": "1.2.5",
+  "wt_receptor": "/mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP10_STRUCTURAL_ANALYSIS/structures/WT/PNPLA3_WT.pdb",
+  "d166v_receptor": "/mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP10_STRUCTURAL_ANALYSIS/structures/D166V/PNPLA3_D166V_mutant.pdb",
+  "pocket_id": 1,
+  "chain": "A",
+  "target_residue": "A:166",
+  "common_center": [
+    2.195,
+    8.933,
+    -5.502
+  ],
+  "box_size_A": [
+    20.0,
+    20.0,
+    20.0
+  ],
+  "wt_ca": [
+    2.21,
+    8.92,
+    -5.495
+  ],
+  "d166v_ca": [
+    2.195,
+    8.933,
+    -5.502
+  ],
+  "wt_d166v_ca_displacement_A": 0.02104756517984911,
+  "exhaustiveness": 16,
+  "num_modes": 10,
+  "energy_range": 4.0,
+  "seed": 20260910,
+  "input_compounds": 10,
+  "successful_wt": 10,
+  "failed_wt": 0,
+  "differential_definition": "D166V score minus WT score",
+  "interpretation": "Negative delta indicates a more favorable D166V Vina score; positive delta indicates a more favorable WT Vina score.",
+  "scientific_limitation": "Differential Vina score is a computational comparison and does not establish experimental selectivity or binding affinity."
+}

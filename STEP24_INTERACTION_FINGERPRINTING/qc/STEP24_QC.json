@@ -1,0 +1,17 @@
+{
+  "step": 24,
+  "top_leads_requested": 4,
+  "top_leads_processed": 4,
+  "contact_rows": 978,
+  "receptors": {
+    "WT": "/mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP22_WT_vs_D166V_DIFFERENTIAL_DOCKING/receptor/PNPLA3_WT_chainA.pdbqt",
+    "D166V": "/mnt/c/Users/Asif Computer/Documents/Bioinformatics projects/MASLD_PNPLA3/RESULTS/STEP22_WT_vs_D166V_DIFFERENTIAL_DOCKING/receptor/PNPLA3_D166V_chainA.pdbqt"
+  },
+  "contact_cutoffs_A": {
+    "general": 4.0,
+    "hbond_candidate": 3.5,
+    "ionic_candidate": 4.0,
+    "aromatic_proximity": 4.5
+  },
+  "scientific_note": "Interaction categories are distance-based computational contact assignments from rigid docking poses. They should not be interpreted as experimentally confirmed hydrogen bonds, ionic interactions, binding affinity, or biological activity."
+}

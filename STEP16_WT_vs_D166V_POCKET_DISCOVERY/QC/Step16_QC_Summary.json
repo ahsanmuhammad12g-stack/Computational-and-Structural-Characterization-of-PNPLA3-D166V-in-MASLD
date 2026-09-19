@@ -1,0 +1,26 @@
+{
+    "Step": "STEP16_WT_vs_D166V_POCKET_DISCOVERY",
+    "UniProt_ID": "Q9NST1",
+    "Expected_Protein_Length": 481,
+    "Primary_Variant": "p.Asp166Val",
+    "Primary_Position": 166,
+    "Primary_VariationID": 3308171,
+    "WT_Fpocket_Source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\asif_computer\\PNPLA3_FP0CKET_TEST\\WT\\PNPLA3_WT_out",
+    "D166V_Fpocket_Source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\asif_computer\\PNPLA3_FP0CKET_TEST\\D166V\\PNPLA3_D166V_mutant_out",
+    "WT_Pocket_Count": 35,
+    "D166V_Pocket_Count": 35,
+    "Matched_Pockets": 35,
+    "WT_Specific_Pockets": 0,
+    "D166V_Specific_Pockets": 0,
+    "Prioritized_D166V_Pockets": 35,
+    "Center_Match_Threshold_A": 8.0,
+    "Lining_Jaccard_Threshold": 0.2,
+    "Prioritization_Weights": {
+        "Druggability": 0.3,
+        "Pocket_Score": 0.15,
+        "Volume": 0.1,
+        "D166_Proximity": 0.2,
+        "Mutation_Remodeling": 0.25
+    },
+    "Methodological_Note": "fpocket descriptors and computational prioritization scores are computational structural descriptors and do not constitute experimental evidence of therapeutic binding."
+}
