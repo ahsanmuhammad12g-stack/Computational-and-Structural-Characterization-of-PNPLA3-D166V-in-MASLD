@@ -1,0 +1,14 @@
+{
+  "Step": 32,
+  "Variant": "D166V",
+  "Primary_CID": "71236597",
+  "Input_files_found": 11,
+  "Input_files_missing": 1,
+  "Evidence_domains": 12,
+  "Evidence_domains_with_support": 8,
+  "Direct_experimental_validation_domains": 0,
+  "Not_established_domains": 4,
+  "Step29_interaction_validation_limitation": true,
+  "Final_conclusion_status": "COMPUTATIONALLY_SUPPORTED_WITH_EXPERIMENTAL_GAP",
+  "Status": "PASS"
+}

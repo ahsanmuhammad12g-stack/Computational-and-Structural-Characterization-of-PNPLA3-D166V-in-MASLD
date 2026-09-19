@@ -1,0 +1,8 @@
+Limitation_ID,Limitation,Impact
+L01,No direct biochemical assay of D166V PNPLA3 activity was performed.,Functional effect remains computationally inferred.
+L02,No cellular phenotype or disease-model experiment for D166V was performed.,Direct disease causality remains unverified.
+L03,WT and D166V structures are static computational models.,Dynamic conformational effects may not be captured.
+L04,Step 29 interaction-overlap reconstruction was incomplete because the Step 24 schema could not be reconstructed automatically.,Interaction-consistency evidence should not be overinterpreted.
+L05,Step 30 evaluates physicochemical drug-development properties rather than experimental ADMET.,Pharmacokinetics and toxicity remain unresolved.
+L06,D166V-specific functional literature was not identified in the targeted search.,The project addresses an unresolved functional hypothesis rather than a previously established mechanism.
+L07,No experimental compound-binding or functional-rescue assay was performed.,Therapeutic efficacy remains hypothetical.

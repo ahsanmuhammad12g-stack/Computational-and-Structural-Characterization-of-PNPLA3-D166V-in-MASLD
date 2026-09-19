@@ -1,0 +1,13 @@
+Evidence_Domain,Status,Present,Direct_Experimental_Validation
+Variant prioritization,COMPUTATIONALLY_SUPPORTED,True,False
+Population rarity,DATABASE_SUPPORTED,True,False
+Structural alteration,COMPUTATIONALLY_SUPPORTED,True,False
+Local mechanistic effect,COMPUTATIONALLY_SUPPORTED,True,False
+PNPLA3 functional relevance,LITERATURE_SUPPORTED + COMPUTATIONAL,True,False
+D166V → MASLD causality,INFERENCE,True,False
+Therapeutic pocket,COMPUTATIONALLY_SUPPORTED,True,False
+Lead docking,COMPUTATIONALLY_SUPPORTED,True,False
+Mutation-specific therapeutic action,NOT_ESTABLISHED,False,False
+Experimental ADMET,NOT_ESTABLISHED,False,False
+Cellular rescue,NOT_ESTABLISHED,False,False
+Animal/clinical validation,NOT_ESTABLISHED,False,False

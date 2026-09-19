@@ -1,0 +1,61 @@
+STEP 11 — D166V CATALYTIC-CONTEXT AND STRUCTURAL-IMPACT ANALYSIS
+==============================================================================
+
+PRIMARY CANDIDATE
+------------------------------------------------------------------------------
+VariationID: 3308171
+Protein change: p.Asp166Val
+UniProt ID: Q9NST1
+Protein position: 166.0
+Reference amino acid: Asp
+Alternate amino acid: Val
+
+STRUCTURAL VALIDATION
+------------------------------------------------------------------------------
+WT residue 166: ASP
+D166V residue 166: VAL
+WT Asp166 OD1/OD2: present
+D166V Val166 CG1/CG2: present
+D166V Val166 OD1/OD2: absent
+
+CATALYTIC / STRUCTURAL CONTEXT
+------------------------------------------------------------------------------
+Ser47 WT minimum heavy-atom distance to D166: 2.669 Å
+Ser47 D166V minimum heavy-atom distance to residue 166: 3.561 Å
+Ser47 distance change: +0.892 Å
+Pro186 WT minimum heavy-atom distance to D166: 12.261 Å
+Pro186 D166V minimum heavy-atom distance to residue 166: 12.796 Å
+Pro186 distance change: +0.535 Å
+
+LOCAL CONTACT ANALYSIS
+------------------------------------------------------------------------------
+WT heavy-atom contacts <= 4.5 Å: 11
+D166V heavy-atom contacts <= 4.5 Å: 11
+Retained contacts: 11
+Lost contacts: 0
+Gained contacts: 0
+
+CANDIDATE POLAR CONTACT ANALYSIS
+------------------------------------------------------------------------------
+WT candidate polar contacts <= 3.5 Å: 13
+D166V candidate polar contacts <= 3.5 Å: 9
+
+PHYSICOCHEMICAL INTERPRETATION
+------------------------------------------------------------------------------
+Aspartate -> valine replaces a negatively charged, polar, carboxylate-containing side chain with a neutral, non-polar, hydrocarbon side chain.
+The substitution therefore produces a substantial change in local residue chemistry even when the overall modeled backbone remains highly similar.
+
+STRUCTURAL INTERPRETATION
+------------------------------------------------------------------------------
+Local distance changes are interpreted as modeled structural differences rather than direct evidence of experimental functional loss.
+Changes in candidate polar contacts provide a mechanistic structural hypothesis for downstream interaction, docking, and molecular-dynamics analyses.
+
+IMPORTANT LIMITATIONS
+------------------------------------------------------------------------------
+Candidate polar contacts are based on heavy-atom proximity and are not automatically confirmed hydrogen bonds.
+The structural model does not by itself establish loss of PNPLA3 enzymatic activity.
+Energy minimization and molecular dynamics are not performed in Step 11.
+
+FINAL QC
+------------------------------------------------------------------------------
+Overall Step 11 QC: PASS

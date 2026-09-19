@@ -1,0 +1,19 @@
+{
+  "Step9F_Resolved": false,
+  "Step9F_Path": "",
+  "Step9F_Original_Step32_Path_Status": "MISSING_IN_STEP32_RUN",
+  "Step25_Original_Step32_Extraction_Status": "SUMMARY_COLUMNS_NOT_RECOGNIZED_IN_STEP32",
+  "Step25_Verified_Results_Carried_Forward": {
+    "Contacts_Lost": 20,
+    "Contacts_Gained": 8,
+    "Hydropathy_Change": 7.7,
+    "Charge_Change": 1.0,
+    "Sidechain_Displacement_A": 1.166877
+  },
+  "Step29_Interaction_Validation": {
+    "Status": "LIMITED",
+    "Reason": "Explicit WT/D166V Step 24 interaction footprint could not be reconstructed automatically.",
+    "Interpretation": "Jaccard 0.000 from Step 29 must not be interpreted as absence of shared interactions."
+  },
+  "Scientific_Status": "Step 33 is a packaging and audit step; it does not alter previous scientific results."
+}

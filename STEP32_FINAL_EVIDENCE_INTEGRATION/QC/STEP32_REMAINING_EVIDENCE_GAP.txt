@@ -1,0 +1,1 @@
+The main remaining evidence gap is direct experimental characterization of PNPLA3 D166V. The highest-value validation would be variant-specific biochemical and/or cellular testing of PNPLA3 function, followed by testing whether the prioritized compound alters the relevant D166V phenotype. The present computational workflow cannot replace those experiments.

@@ -1,0 +1,4 @@
+Residue_Position,Context_Label,WT_Residue,D166V_Residue,WT_Distance_to_D166_A,D166V_Distance_to_Residue166_A,Distance_Change_A,WT_Closest_Atom_1,WT_Closest_Atom_2,D166V_Closest_Atom_1,D166V_Closest_Atom_2
+47,Ser47 — catalytic-context residue,SER,SER,2.668748395784061,3.5611409688469227,0.8923925730628617,OD2,OG,CG2,OG
+166,Asp166/Val166 — candidate residue,ASP,VAL,0.0,0.0,0.0,,,,
+186,Pro186 — structural-context residue,PRO,PRO,12.260629225288561,12.7957846965319,0.5351554712433391,OD2,CG,CG2,CG

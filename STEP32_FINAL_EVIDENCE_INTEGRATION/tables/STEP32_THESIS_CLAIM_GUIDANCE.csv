@@ -1,0 +1,7 @@
+Claim,Evidence,Permissible_Wording,Avoid
+D166V alters the chemical identity of PNPLA3 residue 166.,"Steps 10, 25, 27",D166V replaces Asp166 with Val166.,D166V completely destabilizes PNPLA3.
+D166V alters the local residue-166 environment.,Steps 25 and 27,D166V is predicted to remodel the local structural and interaction environment.,D166V experimentally disrupts catalytic activity.
+D166V is biologically relevant to PNPLA3 function.,Steps 26 and 31,The predicted D166V structural effect is consistent with an alteration of a functionally important PNPLA3 region.,D166V is proven to be pathogenic.
+D166V can be linked mechanistically to MASLD.,Steps 26 and 31,The D166V mechanism is biologically consistent with established PNPLA3/MASLD biology.,D166V is proven to cause MASLD.
+CID 71236597 is a computational lead.,"Steps 22, 23, 28, 30",CID 71236597 was prioritized as a computational candidate with a D166V-preferred docking signal and favorable physicochemical properties.,CID 71236597 is an established D166V inhibitor.
+The therapeutic hypothesis is testable.,Steps 16–30,The analysis generates a testable hypothesis that the altered D166V region can be therapeutically targeted.,The compound will treat MASLD.

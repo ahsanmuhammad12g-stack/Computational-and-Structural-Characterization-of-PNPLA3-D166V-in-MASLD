@@ -1,0 +1,8 @@
+Evidence_Domain,Status,Meaning
+D166V direct literature,NOT_FOUND,No direct functional characterization identified in the targeted search.
+PNPLA3 biochemical function,ESTABLISHED,Independent experimental literature supports PNPLA3 lipid-metabolizing activity.
+PNPLA3–MASLD association,ESTABLISHED,PNPLA3 genetic variation is strongly associated with steatotic liver disease.
+D166V structural mechanism,COMPUTATIONALLY_SUPPORTED,Steps 25 and 27 independently identify local chemical/contact remodeling at residue 166.
+D166V disease mechanism,MECHANISTIC_INFERENCE,"The structural effect is consistent with established PNPLA3 biology, but direct D166V functional data are absent."
+Therapeutic hypothesis,COMPUTATIONALLY_SUPPORTED,The altered region is computationally targetable and a lead shows D166V-preferred docking.
+Therapeutic efficacy,NOT_ESTABLISHED,"No biochemical, cellular, animal or clinical rescue experiment has been performed."

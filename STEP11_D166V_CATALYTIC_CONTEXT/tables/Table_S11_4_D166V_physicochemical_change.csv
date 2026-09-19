@@ -1,0 +1,7 @@
+Property,WT,D166V,Interpretation
+Residue identity,Aspartate (Asp/D),Valine (Val/V),Residue substitution
+Side-chain functional group,Carboxylate,Hydrocarbon side chain,Loss of carboxylate functionality
+Charge character,Negative,Neutral,Negative to neutral
+Polarity,Polar,Non-polar,Marked reduction in side-chain polarity
+Hydrophobic character,Lower,Higher,Increased hydrophobic character
+Candidate polar contacts,13,9,Change in local polar-contact environment

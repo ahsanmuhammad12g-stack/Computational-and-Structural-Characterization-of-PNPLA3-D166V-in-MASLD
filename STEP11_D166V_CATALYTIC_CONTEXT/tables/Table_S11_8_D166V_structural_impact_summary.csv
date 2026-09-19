@@ -1,0 +1,14 @@
+Metric,Value,Interpretation
+Candidate,D166V,Primary PNPLA3 structural candidate
+Protein position,166,Authoritative Step 9F protein position
+WT residue,ASP,Reference residue
+D166V residue,VAL,Modeled mutant residue
+WT local heavy-atom contacts,11,Residue contacts <= 4.5 Å
+D166V local heavy-atom contacts,11,Residue contacts <= 4.5 Å
+Retained contacts,11,Present in both structures
+Lost contacts,0,Present in WT but absent in D166V
+Gained contacts,0,Absent in WT but present in D166V
+WT candidate polar contacts,13,N/O/S contacts <= 3.5 Å
+D166V candidate polar contacts,9,N/O/S contacts <= 3.5 Å
+Maximum absolute local distance change (Å),0.9752580095427934,Residue-level local distance comparison
+Mean absolute local distance change (Å),0.1625663061309572,Residue-level local distance comparison

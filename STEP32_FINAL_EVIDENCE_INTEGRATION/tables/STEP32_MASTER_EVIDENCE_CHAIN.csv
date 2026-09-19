@@ -1,0 +1,14 @@
+Stage,Question,Evidence,Status,Claim_Level,Limitation
+1. Variant identification,Was D166V selected as the unresolved PNPLA3 candidate?,Step 9F candidate-selection analysis,SUPPORTED,Project finding,Computational prioritization is not equivalent to experimental pathogenicity.
+2. Population context,Is D166V compatible with a rare unresolved variant profile?,gnomAD annotation carried through Step 9F,SUPPORTED,Observed database evidence,Allele frequency does not establish pathogenicity.
+3. Structural substitution,Does Asp166 → Val166 occur in the generated mutant structure?,"Steps 10, 25 and 27",SUPPORTED,Direct computational observation,Static structural model.
+4. Local molecular effect,Does D166V alter the chemical/contact environment?,Steps 25 and 27,COMPUTATIONALLY_SUPPORTED,Structural mechanism,Contact and physicochemical descriptors are computational proxies.
+5. Global structural effect,Does D166V cause gross protein backbone disruption?,Steps 26 and 27,NOT_OBSERVED,Negative structural observation,Absence of backbone change does not exclude functional effects.
+6. PNPLA3 functional relevance,Is the affected region biologically relevant to PNPLA3 function?,Project catalytic-site analysis + independent literature,SUPPORTED,Biological integration,Direct D166V enzymatic measurements are unavailable.
+7. MASLD mechanistic connection,Can the predicted molecular defect be connected to MASLD biology?,Steps 26 and 31,MECHANISTICALLY_CONSISTENT,Integrated inference,D166V-specific disease causality is not experimentally demonstrated.
+8. Therapeutic pocket,Is the altered region computationally targetable?,Step 16,COMPUTATIONALLY_SUPPORTED,Structural druggability hypothesis,Pocket scores do not prove binding.
+9. Ligand screening,Can existing compounds computationally occupy the region?,Steps 20–23,COMPUTATIONALLY_SUPPORTED,Virtual-screening result,Docking scores are not measured binding affinities.
+10. D166V differential preference,Does a lead show a different docking score for D166V vs WT?,Steps 22 and 28,SUPPORTED,Comparative docking result,A docking-score difference does not establish mutation-specific inhibition.
+11. Interaction validation,Are ligand interaction fingerprints independently validated?,Step 24 / Step 29,LIMITED,Incomplete computational validation,Step 29 could not reconstruct explicit WT/D166V Step 24 interaction footprints.
+12. Development feasibility,Do prioritized compounds have favorable physicochemical properties?,Step 30,COMPUTATIONALLY_SUPPORTED,Physicochemical screening,Not experimental ADMET or clinical safety.
+13. Independent biological validation,Does independent literature support the broader biological framework?,Step 31,SUPPORTED,Literature-supported biological context,Available literature does not directly characterize D166V.

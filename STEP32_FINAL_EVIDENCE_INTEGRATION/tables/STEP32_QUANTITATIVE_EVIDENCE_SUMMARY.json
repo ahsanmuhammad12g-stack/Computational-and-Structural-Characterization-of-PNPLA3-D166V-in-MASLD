@@ -1,0 +1,75 @@
+{
+  "Variant": "D166V",
+  "Target_Residue": 166,
+  "Primary_CID": "71236597",
+  "Variant_Selection": {
+    "available": false
+  },
+  "Step16": {
+    "available": true,
+    "Rank": NaN,
+    "Druggability": 0.851,
+    "Pocket_Score": 0.12,
+    "Volume_A3": 602.118,
+    "D166_Distance_A": 9.456776066833462e-08,
+    "D166_Directly_Lining": "True",
+    "Lining_Jaccard": 1.0,
+    "Mutation_Remodeling_Score": 0.10275,
+    "Prioritization_Score": 0.7756874981086447
+  },
+  "Step25": {
+    "available": true,
+    "Hydropathy_Change": 7.7,
+    "Charge_Change": 1.0,
+    "Contact_Gained": NaN,
+    "Contact_Lost": NaN,
+    "Sidechain_Displacement_A": NaN
+  },
+  "Step27": {
+    "available": true,
+    "WT_Residue_SASA_A2": 10.626484274657276,
+    "WT_Heavy_Atom_Contact_Count_4A": 68.0,
+    "WT_Polar_Atom_Contact_Count_4A": 17.0,
+    "D166V_Residue_SASA_A2": 13.208433612936584,
+    "D166V_Heavy_Atom_Contact_Count_4A": 56.0,
+    "D166V_Polar_Atom_Contact_Count_4A": 11.0
+  },
+  "Step22": {
+    "available": true,
+    "WT_Score": -9.296,
+    "D166V_Score": -10.262,
+    "Delta": -0.9660000000000012,
+    "Differential_Class": "SIMILAR_DOCKING_SCORE"
+  },
+  "Step23": {
+    "available": true,
+    "Lead_Class": "TOP_LEAD"
+  },
+  "Step28": {
+    "available": true,
+    "Ligand_Specific_Vulnerability_Score": 1.0,
+    "Therapeutic_Interpretation": "MUTATION_CONSISTENT",
+    "Docking_Preference_Class": "D166V_PREFERENCE"
+  },
+  "Step29": {
+    "available": true,
+    "Validation_Score": 0.5,
+    "Validation_Class": "MUTATION_CONSISTENT",
+    "Interaction_Jaccard": 0.0
+  },
+  "Step30": {
+    "available": true,
+    "ADMET_Score": 90.0,
+    "Development_Class": "GOOD_DEVELOPABILITY",
+    "Step30_Priority": 86.5
+  },
+  "Step31": {
+    "available": true,
+    "D166V direct literature": "NOT_FOUND",
+    "PNPLA3 biochemical function": "ESTABLISHED",
+    "PNPLA3\u2013MASLD association": "ESTABLISHED",
+    "D166V structural mechanism": "COMPUTATIONALLY_SUPPORTED",
+    "D166V disease mechanism": "MECHANISTIC_INFERENCE",
+    "Therapeutic efficacy": "NOT_ESTABLISHED"
+  }
+}

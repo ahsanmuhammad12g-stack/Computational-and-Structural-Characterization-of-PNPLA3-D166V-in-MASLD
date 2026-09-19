@@ -1,0 +1,14 @@
+{
+  "Step": 31,
+  "Variant": "D166V",
+  "Targeted_D166V_functional_literature_found": false,
+  "Literature_records": 5,
+  "Computation_literature_mapping_records": 4,
+  "Step25_available": true,
+  "Step26_available": true,
+  "Step27_available": true,
+  "Step28_available": true,
+  "Step29_available": true,
+  "Step30_available": true,
+  "Status": "PASS"
+}
